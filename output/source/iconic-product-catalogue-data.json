@@ -1,0 +1,2036 @@
+{
+  "generatedAt": "2026-07-28T05:13:05.187Z",
+  "siteUrl": "https://iconicfiltration.com",
+  "brand": {
+    "companyName": "ICONIC FILTRATION AND ENGINEERS LLP",
+    "logoPath": "/brand/iconic-filtration-logo-384.png",
+    "title": "Product Catalogue",
+    "tagline": "Premium Water Filtration Products & Engineering Solutions"
+  },
+  "contact": {
+    "website": "https://iconicfiltration.com",
+    "phone": "+91 9650086963",
+    "email": "sales@iconicfiltration.com",
+    "whatsapp": "+91 9650086963",
+    "quoteUrl": "https://iconicfiltration.com/request-quote",
+    "contactUrl": "https://iconicfiltration.com/contact",
+    "offices": [
+      {
+        "title": "Delhi Office",
+        "lines": [
+          "Plot No. 928, Pocket-C,",
+          "Paper Market,",
+          "Ghazi Pur,",
+          "New Delhi - 110096"
+        ]
+      },
+      {
+        "title": "Noida Branch Office",
+        "lines": [
+          "Office No. 008,",
+          "Aastha Greens,",
+          "Greater Noida West,",
+          "Gautam Buddha Nagar,",
+          "Uttar Pradesh - 201318"
+        ]
+      }
+    ]
+  },
+  "categoryGroups": [
+    {
+      "slug": "water-treatment-components",
+      "name": "Water Treatment Components",
+      "description": "Core components for RO, filtration, ion exchange, chemical dosing, and process-water treatment systems.",
+      "productCount": 13
+    },
+    {
+      "slug": "water-handling-equipment",
+      "name": "Water Handling Equipment",
+      "description": "Equipment and assemblies for storage, pumping, pressure control, and movement of treated or process water.",
+      "productCount": 3
+    },
+    {
+      "slug": "wastewater-treatment-equipment",
+      "name": "Wastewater Treatment Equipment",
+      "description": "",
+      "productCount": 3
+    }
+  ],
+  "categories": [
+    {
+      "slug": "ro-housings",
+      "name": "RO Housings",
+      "description": "Membrane housings for commercial and industrial reverse-osmosis systems.",
+      "imagePath": "/partners/dax/products/ro-pressure-vessels.webp",
+      "productCount": 15,
+      "pageUrl": "https://iconicfiltration.com/products/ro-housings"
+    },
+    {
+      "slug": "ro-membranes",
+      "name": "RO Membranes",
+      "description": "Membrane separation for desalination, process water, and purification systems.",
+      "imagePath": "/partners/hydranautics/products/ld-technology-ro-membranes.webp",
+      "productCount": 4,
+      "pageUrl": "https://iconicfiltration.com/products/ro-membranes"
+    },
+    {
+      "slug": "domestic-ro-membranes",
+      "name": "Domestic RO Membranes",
+      "description": "Compact membranes for domestic and light-commercial water purifiers.",
+      "imagePath": "/partners/hydranautics/products/ld-technology-ro-membranes.webp",
+      "productCount": 1,
+      "pageUrl": "https://iconicfiltration.com/products/domestic-ro-membranes"
+    },
+    {
+      "slug": "ro-antiscalant",
+      "name": "RO Antiscalant",
+      "description": "Scale-control chemistry for improved membrane life and system uptime.",
+      "imagePath": "/images/homepage-filtration-hero-1600.jpg",
+      "productCount": 1,
+      "pageUrl": "https://iconicfiltration.com/products/ro-antiscalant"
+    },
+    {
+      "slug": "ro-controller-instruments",
+      "name": "RO Controller and Instruments",
+      "description": "Monitoring and control instruments for RO automation and process visibility.",
+      "imagePath": "/images/homepage-filtration-hero-1600.jpg",
+      "productCount": 1,
+      "pageUrl": "https://iconicfiltration.com/products/ro-controller-instruments"
+    },
+    {
+      "slug": "dosing-pumps",
+      "name": "Dosing Pumps",
+      "description": "Chemical dosing for antiscalant, pH correction, disinfection, and process control.",
+      "imagePath": "/partners/seko/products/kosmo-mm2-dosing-pump.webp",
+      "productCount": 10,
+      "pageUrl": "https://iconicfiltration.com/products/dosing-pumps"
+    },
+    {
+      "slug": "frp-vessels",
+      "name": "FRP Vessels",
+      "description": "Pressure vessels for filters, softeners, and industrial water-treatment systems.",
+      "imagePath": "/partners/dax/products/ro-pressure-vessels.webp",
+      "productCount": 1,
+      "pageUrl": "https://iconicfiltration.com/products/frp-vessels"
+    },
+    {
+      "slug": "multiport-valves",
+      "name": "Multiport Valves",
+      "description": "Manual and automatic valve control for filters, softeners, and treatment units.",
+      "imagePath": "/images/homepage-filtration-hero-1600.jpg",
+      "productCount": 1,
+      "pageUrl": "https://iconicfiltration.com/products/multiport-valves"
+    },
+    {
+      "slug": "distribution-systems",
+      "name": "Distribution Systems",
+      "description": "Internal vessel distribution for uniform flow and efficient media performance.",
+      "imagePath": "/images/homepage-filtration-hero-1600.jpg",
+      "productCount": 1,
+      "pageUrl": "https://iconicfiltration.com/products/distribution-systems"
+    },
+    {
+      "slug": "filter-cartridges",
+      "name": "Filter Cartridges",
+      "description": "Sediment and polishing filtration for pre-treatment and final filtration stages.",
+      "imagePath": "/blog/industrial-filtration-components.jpg",
+      "productCount": 1,
+      "pageUrl": "https://iconicfiltration.com/products/filter-cartridges"
+    },
+    {
+      "slug": "filter-media",
+      "name": "Filter Media",
+      "description": "Media for sand filters, carbon filters, iron removal, and specialty filtration.",
+      "imagePath": "/images/homepage-filtration-hero-1600.jpg",
+      "productCount": 1,
+      "pageUrl": "https://iconicfiltration.com/products/filter-media"
+    },
+    {
+      "slug": "cation-exchange-resins",
+      "name": "Cation Exchange Resins",
+      "description": "Softening and demineralization support for water-treatment systems.",
+      "imagePath": "/images/homepage-filtration-hero-1600.jpg",
+      "productCount": 1,
+      "pageUrl": "https://iconicfiltration.com/products/cation-exchange-resins"
+    },
+    {
+      "slug": "electro-chlorination-systems",
+      "name": "Electro Chlorination Systems",
+      "description": "On-site chlorine generation for safe and controlled disinfection.",
+      "imagePath": "/images/homepage-filtration-hero-1600.jpg",
+      "productCount": 1,
+      "pageUrl": "https://iconicfiltration.com/products/electro-chlorination-systems"
+    },
+    {
+      "slug": "high-pressure-pumps",
+      "name": "High Pressure Pumps",
+      "description": "Pressure generation for RO and industrial water-treatment applications.",
+      "imagePath": "/images/homepage-filtration-hero-1600.jpg",
+      "productCount": 1,
+      "pageUrl": "https://iconicfiltration.com/products/high-pressure-pumps"
+    },
+    {
+      "slug": "hydro-pneumatic-tanks",
+      "name": "Hydro Pneumatic Tanks",
+      "description": "Pressure stabilization and water storage for commercial and industrial systems.",
+      "imagePath": "/images/homepage-filtration-hero-1600.jpg",
+      "productCount": 1,
+      "pageUrl": "https://iconicfiltration.com/products/hydro-pneumatic-tanks"
+    },
+    {
+      "slug": "level-sensors",
+      "name": "Level Sensors",
+      "description": "Tank-level monitoring and process protection for water-handling systems.",
+      "imagePath": "/images/homepage-filtration-hero-1600.jpg",
+      "productCount": 1,
+      "pageUrl": "https://iconicfiltration.com/products/level-sensors"
+    },
+    {
+      "slug": "wastewater-filtration-systems",
+      "name": "Wastewater Filtration Systems",
+      "description": "Filtration support for effluent, recycling, and wastewater reuse applications.",
+      "imagePath": "/partners/fenton/products/uf-8585-ultrafiltration-membrane.webp",
+      "productCount": 3,
+      "pageUrl": "https://iconicfiltration.com/products/wastewater-filtration-systems"
+    },
+    {
+      "slug": "wastewater-dosing-systems",
+      "name": "Wastewater Dosing Systems",
+      "description": "Chemical dosing and conditioning for wastewater treatment processes.",
+      "imagePath": "/images/homepage-filtration-hero-1600.jpg",
+      "productCount": 1,
+      "pageUrl": "https://iconicfiltration.com/products/wastewater-dosing-systems"
+    },
+    {
+      "slug": "wastewater-accessories",
+      "name": "Wastewater Accessories",
+      "description": "Supporting accessories for wastewater and effluent treatment installations.",
+      "imagePath": "/partners/fenton/products/compact-heavy-duty-oil-skimmer.webp",
+      "productCount": 1,
+      "pageUrl": "https://iconicfiltration.com/products/wastewater-accessories"
+    }
+  ],
+  "products": [
+    {
+      "id": "category-ro-housings",
+      "type": "category-product",
+      "name": "RO Housings",
+      "brand": "Multiple brands available",
+      "description": "RO housings protect membrane elements, maintain pressure integrity, and support stable permeate quality in reverse-osmosis skids. The correct housing choice improves service access, sealing reliability, and long-term system uptime.",
+      "imagePath": "/partners/dax/products/ro-pressure-vessels.webp",
+      "category": "Water Treatment Components",
+      "productPageUrl": "https://iconicfiltration.com/products/ro-housings",
+      "quoteUrl": "https://iconicfiltration.com/request-quote?product=RO%20Housings",
+      "keyFeatures": [
+        "Membrane size and element count",
+        "Feed pressure range",
+        "End-port or side-port arrangement",
+        "Material compatibility"
+      ],
+      "applications": [
+        "Commercial RO plants",
+        "Industrial RO skids",
+        "Process-water polishing",
+        "Desalination pre-engineering"
+      ],
+      "technicalSpecifications": [],
+      "variants": [
+        "4 inch End Entry Membrane Housings",
+        "4 inch Side Entry Membrane Housings",
+        "8 inch End Entry Membrane Housings",
+        "8 inch Side Entry Membrane Housings",
+        "1500 and 1800 PSI Pressure Vessels",
+        "Head Assembly",
+        "Bearing Plate",
+        "Sealing Plate"
+      ],
+      "compatibleProducts": [
+        "RO Membranes",
+        "Domestic RO Membranes",
+        "RO Antiscalant",
+        "RO Controller and Instruments"
+      ],
+      "relatedProducts": [
+        "DAX 4 inch End Entry Membrane Housings",
+        "DAX 4 inch Side Entry Membrane Housings",
+        "DAX 8 inch End Entry Membrane Housings",
+        "DAX 8 inch Side Entry Membrane Housings",
+        "DAX 1500 and 1800 PSI Pressure Vessels"
+      ]
+    },
+    {
+      "id": "category-ro-membranes",
+      "type": "category-product",
+      "name": "RO Membranes",
+      "brand": "Multiple brands available",
+      "description": "RO membranes remove dissolved salts and impurities through pressure-driven separation. Membrane selection directly affects recovery, rejection, cleaning frequency, and operating cost.",
+      "imagePath": "/partners/hydranautics/products/ld-technology-ro-membranes.webp",
+      "category": "Water Treatment Components",
+      "productPageUrl": "https://iconicfiltration.com/products/ro-membranes",
+      "quoteUrl": "https://iconicfiltration.com/request-quote?product=RO%20Membranes",
+      "keyFeatures": [
+        "Feed TDS and water chemistry",
+        "Recovery target",
+        "Fouling and scaling risk",
+        "Cleaning strategy"
+      ],
+      "applications": [
+        "Industrial RO plants",
+        "Process-water treatment",
+        "Boiler feed pre-treatment",
+        "TDS reduction"
+      ],
+      "technicalSpecifications": [],
+      "variants": [
+        "CPA Membranes with LD Technology",
+        "ESPA Membranes with LD Technology",
+        "SWC Membranes with LD Technology",
+        "LFC Membranes with LD Technology"
+      ],
+      "compatibleProducts": [
+        "RO Housings",
+        "Domestic RO Membranes",
+        "RO Antiscalant",
+        "RO Controller and Instruments"
+      ],
+      "relatedProducts": [
+        "Hydranautics CPA Membranes with LD Technology",
+        "Hydranautics ESPA Membranes with LD Technology",
+        "Hydranautics SWC Membranes with LD Technology",
+        "Hydranautics LFC Membranes with LD Technology"
+      ]
+    },
+    {
+      "id": "category-domestic-ro-membranes",
+      "type": "category-product",
+      "name": "Domestic RO Membranes",
+      "description": "Domestic RO membranes support compact purification systems where reliable taste, clarity, and TDS reduction matter. They are selected for stable output in household and light-commercial applications.",
+      "imagePath": "/partners/hydranautics/products/ld-technology-ro-membranes.webp",
+      "category": "Water Treatment Components",
+      "productPageUrl": "https://iconicfiltration.com/products/domestic-ro-membranes",
+      "quoteUrl": "https://iconicfiltration.com/request-quote?product=Domestic%20RO%20Membranes",
+      "keyFeatures": [
+        "GPD rating",
+        "Feed-water quality",
+        "Recovery and reject flow",
+        "Service interval"
+      ],
+      "applications": [
+        "Domestic RO purifiers",
+        "Light-commercial purifiers",
+        "Office pantry systems",
+        "Small drinking-water units"
+      ],
+      "technicalSpecifications": [],
+      "variants": [],
+      "compatibleProducts": [
+        "RO Housings",
+        "RO Membranes",
+        "RO Antiscalant",
+        "RO Controller and Instruments"
+      ],
+      "relatedProducts": []
+    },
+    {
+      "id": "category-ro-antiscalant",
+      "type": "category-product",
+      "name": "RO Antiscalant",
+      "description": "RO antiscalant helps control mineral scaling on membrane surfaces, supporting higher recovery and more stable differential pressure. Proper dosing is based on feed-water analysis and system design.",
+      "imagePath": "/images/homepage-filtration-hero-1600.jpg",
+      "category": "Water Treatment Components",
+      "productPageUrl": "https://iconicfiltration.com/products/ro-antiscalant",
+      "quoteUrl": "https://iconicfiltration.com/request-quote?product=RO%20Antiscalant",
+      "keyFeatures": [
+        "Feed-water chemistry",
+        "Recovery percentage",
+        "Dosing concentration",
+        "Compatibility with membranes and cleaners"
+      ],
+      "applications": [
+        "RO scale prevention",
+        "High-recovery systems",
+        "Brackish-water treatment",
+        "Membrane life extension"
+      ],
+      "technicalSpecifications": [],
+      "variants": [],
+      "compatibleProducts": [
+        "RO Housings",
+        "RO Membranes",
+        "Domestic RO Membranes",
+        "RO Controller and Instruments"
+      ],
+      "relatedProducts": []
+    },
+    {
+      "id": "category-ro-controller-instruments",
+      "type": "category-product",
+      "name": "RO Controller and Instruments",
+      "description": "RO controllers and instruments help teams monitor pressure, conductivity, flow, level, and protection interlocks. Good instrumentation improves operator confidence and makes troubleshooting faster.",
+      "imagePath": "/images/homepage-filtration-hero-1600.jpg",
+      "category": "Water Treatment Components",
+      "productPageUrl": "https://iconicfiltration.com/products/ro-controller-instruments",
+      "quoteUrl": "https://iconicfiltration.com/request-quote?product=RO%20Controller%20and%20Instruments",
+      "keyFeatures": [
+        "Measured parameters",
+        "Display and alarm needs",
+        "Sensor compatibility",
+        "Panel integration"
+      ],
+      "applications": [
+        "RO automation panels",
+        "Conductivity monitoring",
+        "Flow and pressure tracking",
+        "Plant protection interlocks"
+      ],
+      "technicalSpecifications": [],
+      "variants": [],
+      "compatibleProducts": [
+        "RO Housings",
+        "RO Membranes",
+        "Domestic RO Membranes",
+        "RO Antiscalant"
+      ],
+      "relatedProducts": []
+    },
+    {
+      "id": "category-dosing-pumps",
+      "type": "category-product",
+      "name": "Dosing Pumps",
+      "brand": "Multiple brands available",
+      "description": "Dosing pumps meter treatment chemicals at controlled rates so plant operators can manage scale, pH, disinfection, and process conditioning. They help keep water-treatment performance predictable across changing feed conditions.",
+      "imagePath": "/partners/seko/products/tork-ty-dosing-pump.webp",
+      "category": "Water Treatment Components",
+      "productPageUrl": "https://iconicfiltration.com/products/dosing-pumps",
+      "quoteUrl": "https://iconicfiltration.com/request-quote?product=Dosing%20Pumps",
+      "keyFeatures": [
+        "Flow rate and turndown",
+        "Chemical compatibility",
+        "Discharge pressure",
+        "Control signal and automation needs"
+      ],
+      "applications": [
+        "Antiscalant dosing",
+        "pH correction",
+        "Chlorine dosing",
+        "Coagulant and flocculant dosing"
+      ],
+      "technicalSpecifications": [],
+      "variants": [
+        "Tork TY",
+        "Kosmo MM2",
+        "Kosmo MM1",
+        "Spring MS1 AVS",
+        "Spring MS1",
+        "Spring MSV",
+        "Spring with Elektra",
+        "Spring PS2"
+      ],
+      "compatibleProducts": [
+        "RO Housings",
+        "RO Membranes",
+        "Domestic RO Membranes",
+        "RO Antiscalant"
+      ],
+      "relatedProducts": [
+        "SEKO Tork TY",
+        "SEKO Kosmo MM2",
+        "SEKO Kosmo MM1",
+        "SEKO Spring MS1 AVS",
+        "SEKO Spring MS1"
+      ]
+    },
+    {
+      "id": "category-frp-vessels",
+      "type": "category-product",
+      "name": "FRP Vessels",
+      "description": "FRP vessels give filtration and softening systems a corrosion-resistant pressure body for media beds, distributors, and service valves. They are commonly used by OEMs and plant teams that need dependable performance with lower handling weight than metallic vessels.",
+      "imagePath": "/partners/dax/products/ro-pressure-vessels.webp",
+      "category": "Water Treatment Components",
+      "productPageUrl": "https://iconicfiltration.com/products/frp-vessels",
+      "quoteUrl": "https://iconicfiltration.com/request-quote?product=FRP%20Vessels",
+      "keyFeatures": [
+        "Operating pressure and design margin",
+        "Media volume and freeboard",
+        "Valve compatibility",
+        "Connection size and plant layout"
+      ],
+      "applications": [
+        "Pressure sand filters",
+        "Activated carbon filters",
+        "Water softeners",
+        "Iron removal systems"
+      ],
+      "technicalSpecifications": [],
+      "variants": [],
+      "compatibleProducts": [
+        "RO Housings",
+        "RO Membranes",
+        "Domestic RO Membranes",
+        "RO Antiscalant"
+      ],
+      "relatedProducts": []
+    },
+    {
+      "id": "category-multiport-valves",
+      "type": "category-product",
+      "name": "Multiport Valves",
+      "description": "Multiport valves simplify filter and softener operation by combining service, backwash, rinse, and regeneration paths in a compact control point. They help OEMs build cleaner assemblies with fewer external valves.",
+      "imagePath": "/images/homepage-filtration-hero-1600.jpg",
+      "category": "Water Treatment Components",
+      "productPageUrl": "https://iconicfiltration.com/products/multiport-valves",
+      "quoteUrl": "https://iconicfiltration.com/request-quote?product=Multiport%20Valves",
+      "keyFeatures": [
+        "Valve size and flow rating",
+        "Manual or automatic actuation",
+        "Mounting style",
+        "Media and vessel compatibility"
+      ],
+      "applications": [
+        "Filter backwash control",
+        "Softener regeneration",
+        "Carbon filter operation",
+        "Compact treatment packages"
+      ],
+      "technicalSpecifications": [],
+      "variants": [],
+      "compatibleProducts": [
+        "RO Housings",
+        "RO Membranes",
+        "Domestic RO Membranes",
+        "RO Antiscalant"
+      ],
+      "relatedProducts": []
+    },
+    {
+      "id": "category-distribution-systems",
+      "type": "category-product",
+      "name": "Distribution Systems",
+      "description": "Distribution systems spread water evenly through the vessel, support media retention, and reduce channeling. Correct distributor selection protects media performance and keeps pressure drop under control.",
+      "imagePath": "/images/homepage-filtration-hero-1600.jpg",
+      "category": "Water Treatment Components",
+      "productPageUrl": "https://iconicfiltration.com/products/distribution-systems",
+      "quoteUrl": "https://iconicfiltration.com/request-quote?product=Distribution%20Systems",
+      "keyFeatures": [
+        "Vessel diameter",
+        "Slot size and media grade",
+        "Flow direction",
+        "Collector strength and service access"
+      ],
+      "applications": [
+        "FRP and MS filter vessels",
+        "Softener vessels",
+        "Mixed-bed systems",
+        "Media retention assemblies"
+      ],
+      "technicalSpecifications": [],
+      "variants": [],
+      "compatibleProducts": [
+        "RO Housings",
+        "RO Membranes",
+        "Domestic RO Membranes",
+        "RO Antiscalant"
+      ],
+      "relatedProducts": []
+    },
+    {
+      "id": "category-filter-cartridges",
+      "type": "category-product",
+      "name": "Filter Cartridges",
+      "description": "Filter cartridges remove suspended particles before sensitive equipment or at the final polishing stage. They are a practical safeguard for membranes, instruments, nozzles, and process lines.",
+      "imagePath": "/blog/industrial-filtration-components.jpg",
+      "category": "Water Treatment Components",
+      "productPageUrl": "https://iconicfiltration.com/products/filter-cartridges",
+      "quoteUrl": "https://iconicfiltration.com/request-quote?product=Filter%20Cartridges",
+      "keyFeatures": [
+        "Micron rating",
+        "Cartridge length and diameter",
+        "Dirt-holding capacity",
+        "Material and end-cap compatibility"
+      ],
+      "applications": [
+        "RO pre-filtration",
+        "Final polishing",
+        "Process protection",
+        "Food and beverage filtration"
+      ],
+      "technicalSpecifications": [],
+      "variants": [],
+      "compatibleProducts": [
+        "RO Housings",
+        "RO Membranes",
+        "Domestic RO Membranes",
+        "RO Antiscalant"
+      ],
+      "relatedProducts": []
+    },
+    {
+      "id": "category-filter-media",
+      "type": "category-product",
+      "name": "Filter Media",
+      "description": "Filter media supports removal of turbidity, color, odor, iron, organics, and application-specific contaminants. The right blend and bed depth help plants achieve consistent outlet quality.",
+      "imagePath": "/images/homepage-filtration-hero-1600.jpg",
+      "category": "Water Treatment Components",
+      "productPageUrl": "https://iconicfiltration.com/products/filter-media",
+      "quoteUrl": "https://iconicfiltration.com/request-quote?product=Filter%20Media",
+      "keyFeatures": [
+        "Raw-water analysis",
+        "Bed depth and vessel size",
+        "Backwash rate",
+        "Media grading and replacement cycle"
+      ],
+      "applications": [
+        "Pressure sand filters",
+        "Activated carbon filters",
+        "Iron removal units",
+        "Multi-grade filtration"
+      ],
+      "technicalSpecifications": [],
+      "variants": [],
+      "compatibleProducts": [
+        "RO Housings",
+        "RO Membranes",
+        "Domestic RO Membranes",
+        "RO Antiscalant"
+      ],
+      "relatedProducts": []
+    },
+    {
+      "id": "category-cation-exchange-resins",
+      "type": "category-product",
+      "name": "Cation Exchange Resins",
+      "description": "Cation exchange resins exchange hardness ions and support softening or demineralization processes. Resin selection influences exchange capacity, regeneration efficiency, and leakage control.",
+      "imagePath": "/images/homepage-filtration-hero-1600.jpg",
+      "category": "Water Treatment Components",
+      "productPageUrl": "https://iconicfiltration.com/products/cation-exchange-resins",
+      "quoteUrl": "https://iconicfiltration.com/request-quote?product=Cation%20Exchange%20Resins",
+      "keyFeatures": [
+        "Total hardness and TDS",
+        "Regeneration method",
+        "Operating temperature",
+        "Required leakage limits"
+      ],
+      "applications": [
+        "Water softeners",
+        "DM plants",
+        "Boiler feed preparation",
+        "Process-water treatment"
+      ],
+      "technicalSpecifications": [],
+      "variants": [],
+      "compatibleProducts": [
+        "RO Housings",
+        "RO Membranes",
+        "Domestic RO Membranes",
+        "RO Antiscalant"
+      ],
+      "relatedProducts": []
+    },
+    {
+      "id": "category-electro-chlorination-systems",
+      "type": "category-product",
+      "name": "Electro Chlorination Systems",
+      "description": "Electro chlorination systems generate disinfectant on site from salt, reducing dependency on bulk chemical handling. They are suited to facilities that need repeatable chlorination with safer logistics and better operational control.",
+      "imagePath": "/images/homepage-filtration-hero-1600.jpg",
+      "category": "Water Treatment Components",
+      "productPageUrl": "https://iconicfiltration.com/products/electro-chlorination-systems",
+      "quoteUrl": "https://iconicfiltration.com/request-quote?product=Electro%20Chlorination%20Systems",
+      "keyFeatures": [
+        "Chlorine production capacity",
+        "Salt and power availability",
+        "Brine preparation space",
+        "Duty cycle and redundancy"
+      ],
+      "applications": [
+        "Cooling-water disinfection",
+        "Drinking-water treatment",
+        "Industrial utilities",
+        "Remote water-treatment sites"
+      ],
+      "technicalSpecifications": [],
+      "variants": [],
+      "compatibleProducts": [
+        "RO Housings",
+        "RO Membranes",
+        "Domestic RO Membranes",
+        "RO Antiscalant"
+      ],
+      "relatedProducts": []
+    },
+    {
+      "id": "category-high-pressure-pumps",
+      "type": "category-product",
+      "name": "High Pressure Pumps",
+      "description": "High pressure pumps provide the pressure required for membrane separation and demanding water-transfer duties. Correct pump selection improves energy use, membrane performance, and operating stability.",
+      "imagePath": "/images/homepage-filtration-hero-1600.jpg",
+      "category": "Water Handling Equipment",
+      "productPageUrl": "https://iconicfiltration.com/products/high-pressure-pumps",
+      "quoteUrl": "https://iconicfiltration.com/request-quote?product=High%20Pressure%20Pumps",
+      "keyFeatures": [
+        "Flow and head requirement",
+        "Material of construction",
+        "NPSH and suction condition",
+        "Motor rating and control method"
+      ],
+      "applications": [
+        "RO feed pumping",
+        "Industrial process water",
+        "Pressure boosting",
+        "Skid-mounted treatment systems"
+      ],
+      "technicalSpecifications": [],
+      "variants": [],
+      "compatibleProducts": [
+        "Hydro Pneumatic Tanks",
+        "Level Sensors"
+      ],
+      "relatedProducts": []
+    },
+    {
+      "id": "category-hydro-pneumatic-tanks",
+      "type": "category-product",
+      "name": "Hydro Pneumatic Tanks",
+      "description": "Hydro pneumatic tanks store pressurized water and reduce pump cycling in distribution systems. They support steady pressure for buildings, utilities, and packaged treatment plants.",
+      "imagePath": "/images/homepage-filtration-hero-1600.jpg",
+      "category": "Water Handling Equipment",
+      "productPageUrl": "https://iconicfiltration.com/products/hydro-pneumatic-tanks",
+      "quoteUrl": "https://iconicfiltration.com/request-quote?product=Hydro%20Pneumatic%20Tanks",
+      "keyFeatures": [
+        "Drawdown volume",
+        "System pressure range",
+        "Pump cycling target",
+        "Bladder and vessel compatibility"
+      ],
+      "applications": [
+        "Commercial water supply",
+        "Industrial utilities",
+        "Booster systems",
+        "Treated-water distribution"
+      ],
+      "technicalSpecifications": [],
+      "variants": [],
+      "compatibleProducts": [
+        "High Pressure Pumps",
+        "Level Sensors"
+      ],
+      "relatedProducts": []
+    },
+    {
+      "id": "category-level-sensors",
+      "type": "category-product",
+      "name": "Level Sensors",
+      "description": "Level sensors protect pumps, automate tank operation, and improve visibility across water-handling systems. They help teams prevent dry run, overflow, and process interruption.",
+      "imagePath": "/images/homepage-filtration-hero-1600.jpg",
+      "category": "Water Handling Equipment",
+      "productPageUrl": "https://iconicfiltration.com/products/level-sensors",
+      "quoteUrl": "https://iconicfiltration.com/request-quote?product=Level%20Sensors",
+      "keyFeatures": [
+        "Tank height and geometry",
+        "Liquid characteristics",
+        "Output signal",
+        "Mounting and cable protection"
+      ],
+      "applications": [
+        "Raw-water tanks",
+        "Treated-water tanks",
+        "Chemical day tanks",
+        "Process interlocks"
+      ],
+      "technicalSpecifications": [],
+      "variants": [],
+      "compatibleProducts": [
+        "High Pressure Pumps",
+        "Hydro Pneumatic Tanks"
+      ],
+      "relatedProducts": []
+    },
+    {
+      "id": "category-wastewater-filtration-systems",
+      "type": "category-product",
+      "name": "Wastewater Filtration Systems",
+      "brand": "Multiple brands available",
+      "description": "Wastewater filtration systems help reduce suspended solids and improve water quality before discharge, reuse, or downstream treatment. They can be configured around application load and plant objectives.",
+      "imagePath": "/partners/hydranautics/products/pro-series-specialty-membranes.webp",
+      "category": "Wastewater Treatment Equipment",
+      "productPageUrl": "https://iconicfiltration.com/products/wastewater-filtration-systems",
+      "quoteUrl": "https://iconicfiltration.com/request-quote?product=Wastewater%20Filtration%20Systems",
+      "keyFeatures": [
+        "Influent solids load",
+        "Target outlet quality",
+        "Backwash and sludge handling",
+        "Space and maintenance access"
+      ],
+      "applications": [
+        "Effluent polishing",
+        "Reuse pre-treatment",
+        "Tertiary filtration",
+        "Process-water recovery"
+      ],
+      "technicalSpecifications": [],
+      "variants": [
+        "PRO Series Membranes",
+        "UF 8585 Ultrafiltration Membrane",
+        "Hollow Fiber MBR Membrane"
+      ],
+      "compatibleProducts": [
+        "Wastewater Dosing Systems",
+        "Wastewater Accessories"
+      ],
+      "relatedProducts": [
+        "Hydranautics PRO Series Membranes",
+        "FENTON UF 8585 Ultrafiltration Membrane",
+        "FENTON Hollow Fiber MBR Membrane"
+      ]
+    },
+    {
+      "id": "category-wastewater-dosing-systems",
+      "type": "category-product",
+      "name": "Wastewater Dosing Systems",
+      "description": "Wastewater dosing systems support pH control, coagulation, flocculation, odor management, and disinfection. Good dosing design improves treatment consistency and chemical control.",
+      "imagePath": "/images/homepage-filtration-hero-1600.jpg",
+      "category": "Wastewater Treatment Equipment",
+      "productPageUrl": "https://iconicfiltration.com/products/wastewater-dosing-systems",
+      "quoteUrl": "https://iconicfiltration.com/request-quote?product=Wastewater%20Dosing%20Systems",
+      "keyFeatures": [
+        "Chemical type and concentration",
+        "Required dosing accuracy",
+        "Mixing point",
+        "Automation and safety needs"
+      ],
+      "applications": [
+        "pH correction",
+        "Coagulant dosing",
+        "Flocculant dosing",
+        "Disinfection support"
+      ],
+      "technicalSpecifications": [],
+      "variants": [],
+      "compatibleProducts": [
+        "Wastewater Filtration Systems",
+        "Wastewater Accessories"
+      ],
+      "relatedProducts": []
+    },
+    {
+      "id": "category-wastewater-accessories",
+      "type": "category-product",
+      "name": "Wastewater Accessories",
+      "brand": "Multiple brands available",
+      "description": "Wastewater accessories complete treatment installations with practical components for monitoring, handling, dosing, and maintenance. They help plants keep everyday operations cleaner and more controllable.",
+      "imagePath": "/partners/fenton/products/compact-heavy-duty-oil-skimmer.webp",
+      "category": "Wastewater Treatment Equipment",
+      "productPageUrl": "https://iconicfiltration.com/products/wastewater-accessories",
+      "quoteUrl": "https://iconicfiltration.com/request-quote?product=Wastewater%20Accessories",
+      "keyFeatures": [
+        "Plant process flow",
+        "Material compatibility",
+        "Maintenance frequency",
+        "Operator safety requirements"
+      ],
+      "applications": [
+        "ETP support packages",
+        "STP maintenance support",
+        "Sampling and monitoring",
+        "Chemical handling"
+      ],
+      "technicalSpecifications": [],
+      "variants": [
+        "Compact Heavy Duty Oil Skimmer"
+      ],
+      "compatibleProducts": [
+        "Wastewater Filtration Systems",
+        "Wastewater Dosing Systems"
+      ],
+      "relatedProducts": [
+        "FENTON Compact Heavy Duty Oil Skimmer"
+      ]
+    },
+    {
+      "id": "brand-seko-tork-ty",
+      "type": "brand-product",
+      "name": "Tork TY",
+      "brand": "SEKO",
+      "description": "Hydraulic double diaphragm dosing pump with flow range up to 3,740 l/h and pressure up to 40 bar.",
+      "imagePath": "/partners/seko/products/tork-ty-dosing-pump.webp",
+      "category": "Hydraulic Diaphragm Dosing Pumps",
+      "productPageUrl": "https://iconicfiltration.com/companies/seko",
+      "quoteUrl": "https://iconicfiltration.com/request-quote?product=Tork%20TY",
+      "keyFeatures": [
+        "Flow rate and turndown",
+        "Chemical compatibility",
+        "Discharge pressure",
+        "Control signal and automation needs"
+      ],
+      "applications": [
+        "Municipal water treatment",
+        "Industrial water treatment",
+        "Chemical industry",
+        "Pharmaceutical"
+      ],
+      "technicalSpecifications": [],
+      "variants": [],
+      "compatibleProducts": [
+        "RO Housings",
+        "RO Membranes",
+        "Domestic RO Membranes",
+        "RO Antiscalant"
+      ],
+      "relatedProducts": [
+        "SEKO Kosmo MM2",
+        "SEKO Kosmo MM1",
+        "SEKO Spring MS1 AVS",
+        "SEKO Spring MS1",
+        "SEKO Spring MSV"
+      ]
+    },
+    {
+      "id": "brand-seko-kosmo-mm2",
+      "type": "brand-product",
+      "name": "Kosmo MM2",
+      "brand": "SEKO",
+      "description": "Mechanical diaphragm dosing pump for higher output requirements, with flow rates up to 2,300 l/h.",
+      "imagePath": "/partners/seko/products/kosmo-mm2-dosing-pump.webp",
+      "category": "Mechanical Diaphragm Dosing Pumps",
+      "productPageUrl": "https://iconicfiltration.com/companies/seko",
+      "quoteUrl": "https://iconicfiltration.com/request-quote?product=Kosmo%20MM2",
+      "keyFeatures": [
+        "Flow rate and turndown",
+        "Chemical compatibility",
+        "Discharge pressure",
+        "Control signal and automation needs"
+      ],
+      "applications": [
+        "Water treatment",
+        "Industrial dosing",
+        "Chemical dosing"
+      ],
+      "technicalSpecifications": [],
+      "variants": [],
+      "compatibleProducts": [
+        "RO Housings",
+        "RO Membranes",
+        "Domestic RO Membranes",
+        "RO Antiscalant"
+      ],
+      "relatedProducts": [
+        "SEKO Tork TY",
+        "SEKO Kosmo MM1",
+        "SEKO Spring MS1 AVS",
+        "SEKO Spring MS1",
+        "SEKO Spring MSV"
+      ]
+    },
+    {
+      "id": "brand-seko-kosmo-mm1",
+      "type": "brand-product",
+      "name": "Kosmo MM1",
+      "brand": "SEKO",
+      "description": "Compact mechanical diaphragm dosing pump for lower to medium flow chemical dosing applications.",
+      "imagePath": "/partners/seko/products/kosmo-mm1-dosing-pump.webp",
+      "category": "Mechanical Diaphragm Dosing Pumps",
+      "productPageUrl": "https://iconicfiltration.com/companies/seko",
+      "quoteUrl": "https://iconicfiltration.com/request-quote?product=Kosmo%20MM1",
+      "keyFeatures": [
+        "Flow rate and turndown",
+        "Chemical compatibility",
+        "Discharge pressure",
+        "Control signal and automation needs"
+      ],
+      "applications": [
+        "Water treatment",
+        "Process dosing",
+        "Chemical handling"
+      ],
+      "technicalSpecifications": [],
+      "variants": [],
+      "compatibleProducts": [
+        "RO Housings",
+        "RO Membranes",
+        "Domestic RO Membranes",
+        "RO Antiscalant"
+      ],
+      "relatedProducts": [
+        "SEKO Tork TY",
+        "SEKO Kosmo MM2",
+        "SEKO Spring MS1 AVS",
+        "SEKO Spring MS1",
+        "SEKO Spring MSV"
+      ]
+    },
+    {
+      "id": "brand-seko-spring-ms1-avs",
+      "type": "brand-product",
+      "name": "Spring MS1 AVS",
+      "brand": "SEKO",
+      "description": "Spring-return diaphragm pump with Assisted Vacuum System for improved suction performance.",
+      "imagePath": "/partners/seko/products/spring-ms1-avs-dosing-pump.webp",
+      "category": "Mechanical Diaphragm Dosing Pumps",
+      "productPageUrl": "https://iconicfiltration.com/companies/seko",
+      "quoteUrl": "https://iconicfiltration.com/request-quote?product=Spring%20MS1%20AVS",
+      "keyFeatures": [
+        "Flow rate and turndown",
+        "Chemical compatibility",
+        "Discharge pressure",
+        "Control signal and automation needs"
+      ],
+      "applications": [
+        "Chemical dosing",
+        "Industrial water treatment",
+        "Process control"
+      ],
+      "technicalSpecifications": [],
+      "variants": [],
+      "compatibleProducts": [
+        "RO Housings",
+        "RO Membranes",
+        "Domestic RO Membranes",
+        "RO Antiscalant"
+      ],
+      "relatedProducts": [
+        "SEKO Tork TY",
+        "SEKO Kosmo MM2",
+        "SEKO Kosmo MM1",
+        "SEKO Spring MS1",
+        "SEKO Spring MSV"
+      ]
+    },
+    {
+      "id": "brand-seko-spring-ms1",
+      "type": "brand-product",
+      "name": "Spring MS1",
+      "brand": "SEKO",
+      "description": "Spring-return mechanical diaphragm dosing pump available with single or multiple head configurations.",
+      "imagePath": "/partners/seko/products/spring-ms1-dosing-pump.webp",
+      "category": "Mechanical Diaphragm Dosing Pumps",
+      "productPageUrl": "https://iconicfiltration.com/companies/seko",
+      "quoteUrl": "https://iconicfiltration.com/request-quote?product=Spring%20MS1",
+      "keyFeatures": [
+        "Flow rate and turndown",
+        "Chemical compatibility",
+        "Discharge pressure",
+        "Control signal and automation needs"
+      ],
+      "applications": [
+        "Water treatment",
+        "Chemical dosing",
+        "Industrial dosing"
+      ],
+      "technicalSpecifications": [],
+      "variants": [],
+      "compatibleProducts": [
+        "RO Housings",
+        "RO Membranes",
+        "Domestic RO Membranes",
+        "RO Antiscalant"
+      ],
+      "relatedProducts": [
+        "SEKO Tork TY",
+        "SEKO Kosmo MM2",
+        "SEKO Kosmo MM1",
+        "SEKO Spring MS1 AVS",
+        "SEKO Spring MSV"
+      ]
+    },
+    {
+      "id": "brand-seko-spring-msv",
+      "type": "brand-product",
+      "name": "Spring MSV",
+      "brand": "SEKO",
+      "description": "Vertical-motor spring-return diaphragm dosing pump for adaptable dosing applications.",
+      "imagePath": "/partners/seko/products/spring-msv-dosing-pump.webp",
+      "category": "Mechanical Diaphragm Dosing Pumps",
+      "productPageUrl": "https://iconicfiltration.com/companies/seko",
+      "quoteUrl": "https://iconicfiltration.com/request-quote?product=Spring%20MSV",
+      "keyFeatures": [
+        "Flow rate and turndown",
+        "Chemical compatibility",
+        "Discharge pressure",
+        "Control signal and automation needs"
+      ],
+      "applications": [
+        "Water treatment",
+        "Industrial dosing",
+        "Chemical dosing"
+      ],
+      "technicalSpecifications": [],
+      "variants": [],
+      "compatibleProducts": [
+        "RO Housings",
+        "RO Membranes",
+        "Domestic RO Membranes",
+        "RO Antiscalant"
+      ],
+      "relatedProducts": [
+        "SEKO Tork TY",
+        "SEKO Kosmo MM2",
+        "SEKO Kosmo MM1",
+        "SEKO Spring MS1 AVS",
+        "SEKO Spring MS1"
+      ]
+    },
+    {
+      "id": "brand-seko-spring-with-elektra",
+      "type": "brand-product",
+      "name": "Spring with Elektra",
+      "brand": "SEKO",
+      "description": "Spring pump with electronic control for proportional dosing, local programming, Wi-Fi, and Modbus communication.",
+      "imagePath": "/partners/seko/products/spring-elektra-dosing-pump.webp",
+      "category": "Mechanical Diaphragm Dosing Pumps",
+      "productPageUrl": "https://iconicfiltration.com/companies/seko",
+      "quoteUrl": "https://iconicfiltration.com/request-quote?product=Spring%20with%20Elektra",
+      "keyFeatures": [
+        "Flow rate and turndown",
+        "Chemical compatibility",
+        "Discharge pressure",
+        "Control signal and automation needs"
+      ],
+      "applications": [
+        "Proportional dosing",
+        "Remote dosing control",
+        "Industrial automation"
+      ],
+      "technicalSpecifications": [],
+      "variants": [],
+      "compatibleProducts": [
+        "RO Housings",
+        "RO Membranes",
+        "Domestic RO Membranes",
+        "RO Antiscalant"
+      ],
+      "relatedProducts": [
+        "SEKO Tork TY",
+        "SEKO Kosmo MM2",
+        "SEKO Kosmo MM1",
+        "SEKO Spring MS1 AVS",
+        "SEKO Spring MS1"
+      ]
+    },
+    {
+      "id": "brand-seko-spring-ps2",
+      "type": "brand-product",
+      "name": "Spring PS2",
+      "brand": "SEKO",
+      "description": "Spring-return plunger piston dosing pump for reliable motor-driven chemical dosing.",
+      "imagePath": "/partners/seko/products/spring-ps2-dosing-pump.webp",
+      "category": "Plunger Piston Dosing Pumps",
+      "productPageUrl": "https://iconicfiltration.com/companies/seko",
+      "quoteUrl": "https://iconicfiltration.com/request-quote?product=Spring%20PS2",
+      "keyFeatures": [
+        "Flow rate and turndown",
+        "Chemical compatibility",
+        "Discharge pressure",
+        "Control signal and automation needs"
+      ],
+      "applications": [
+        "Water treatment",
+        "High pressure dosing",
+        "Industrial dosing"
+      ],
+      "technicalSpecifications": [],
+      "variants": [],
+      "compatibleProducts": [
+        "RO Housings",
+        "RO Membranes",
+        "Domestic RO Membranes",
+        "RO Antiscalant"
+      ],
+      "relatedProducts": [
+        "SEKO Tork TY",
+        "SEKO Kosmo MM2",
+        "SEKO Kosmo MM1",
+        "SEKO Spring MS1 AVS",
+        "SEKO Spring MS1"
+      ]
+    },
+    {
+      "id": "brand-seko-spring-ps2-hp",
+      "type": "brand-product",
+      "name": "Spring PS2 HP",
+      "brand": "SEKO",
+      "description": "High-pressure Spring plunger piston dosing pump variant designed for demanding pressure applications.",
+      "imagePath": "/partners/seko/products/spring-ps2-hp-dosing-pump.webp",
+      "category": "Plunger Piston Dosing Pumps",
+      "productPageUrl": "https://iconicfiltration.com/companies/seko",
+      "quoteUrl": "https://iconicfiltration.com/request-quote?product=Spring%20PS2%20HP",
+      "keyFeatures": [
+        "Flow rate and turndown",
+        "Chemical compatibility",
+        "Discharge pressure",
+        "Control signal and automation needs"
+      ],
+      "applications": [
+        "High pressure dosing",
+        "Industrial process dosing",
+        "Chemical injection"
+      ],
+      "technicalSpecifications": [],
+      "variants": [],
+      "compatibleProducts": [
+        "RO Housings",
+        "RO Membranes",
+        "Domestic RO Membranes",
+        "RO Antiscalant"
+      ],
+      "relatedProducts": [
+        "SEKO Tork TY",
+        "SEKO Kosmo MM2",
+        "SEKO Kosmo MM1",
+        "SEKO Spring MS1 AVS",
+        "SEKO Spring MS1"
+      ]
+    },
+    {
+      "id": "brand-seko-spring-ps1",
+      "type": "brand-product",
+      "name": "Spring PS1",
+      "brand": "SEKO",
+      "description": "Spring-return plunger piston dosing pump for compact and dependable dosing duties.",
+      "imagePath": "/partners/seko/products/spring-ps1-dosing-pump.webp",
+      "category": "Plunger Piston Dosing Pumps",
+      "productPageUrl": "https://iconicfiltration.com/companies/seko",
+      "quoteUrl": "https://iconicfiltration.com/request-quote?product=Spring%20PS1",
+      "keyFeatures": [
+        "Flow rate and turndown",
+        "Chemical compatibility",
+        "Discharge pressure",
+        "Control signal and automation needs"
+      ],
+      "applications": [
+        "Chemical dosing",
+        "Water treatment",
+        "Industrial utilities"
+      ],
+      "technicalSpecifications": [],
+      "variants": [],
+      "compatibleProducts": [
+        "RO Housings",
+        "RO Membranes",
+        "Domestic RO Membranes",
+        "RO Antiscalant"
+      ],
+      "relatedProducts": [
+        "SEKO Tork TY",
+        "SEKO Kosmo MM2",
+        "SEKO Kosmo MM1",
+        "SEKO Spring MS1 AVS",
+        "SEKO Spring MS1"
+      ]
+    },
+    {
+      "id": "brand-hydranautics-cpa-ld-membranes",
+      "type": "brand-product",
+      "name": "CPA Membranes with LD Technology",
+      "brand": "Hydranautics",
+      "description": "High purity RO membranes for power generation, semiconductor, and pharmaceutical water applications.",
+      "imagePath": "/partners/hydranautics/products/ld-technology-ro-membranes.webp",
+      "category": "LD Technology RO Membranes",
+      "productPageUrl": "https://iconicfiltration.com/companies/hydranautics",
+      "quoteUrl": "https://iconicfiltration.com/request-quote?product=CPA%20Membranes%20with%20LD%20Technology",
+      "keyFeatures": [
+        "Feed TDS and water chemistry",
+        "Recovery target",
+        "Fouling and scaling risk",
+        "Cleaning strategy"
+      ],
+      "applications": [
+        "Power generation",
+        "Semiconductor ultrapure water",
+        "Pharmaceutical water"
+      ],
+      "technicalSpecifications": [],
+      "variants": [],
+      "compatibleProducts": [
+        "RO Housings",
+        "Domestic RO Membranes",
+        "RO Antiscalant",
+        "RO Controller and Instruments"
+      ],
+      "relatedProducts": [
+        "Hydranautics ESPA Membranes with LD Technology",
+        "Hydranautics SWC Membranes with LD Technology",
+        "Hydranautics LFC Membranes with LD Technology"
+      ]
+    },
+    {
+      "id": "brand-hydranautics-espa-ld-membranes",
+      "type": "brand-product",
+      "name": "ESPA Membranes with LD Technology",
+      "brand": "Hydranautics",
+      "description": "Energy-saving RO membranes for water-treatment applications including wastewater, bottled water, and treated sewage effluent.",
+      "imagePath": "/partners/hydranautics/products/ld-technology-ro-membranes.webp",
+      "category": "LD Technology RO Membranes",
+      "productPageUrl": "https://iconicfiltration.com/companies/hydranautics",
+      "quoteUrl": "https://iconicfiltration.com/request-quote?product=ESPA%20Membranes%20with%20LD%20Technology",
+      "keyFeatures": [
+        "Feed TDS and water chemistry",
+        "Recovery target",
+        "Fouling and scaling risk",
+        "Cleaning strategy"
+      ],
+      "applications": [
+        "Wastewater treatment",
+        "Bottled water",
+        "Food and beverage",
+        "TSE treatment"
+      ],
+      "technicalSpecifications": [],
+      "variants": [],
+      "compatibleProducts": [
+        "RO Housings",
+        "Domestic RO Membranes",
+        "RO Antiscalant",
+        "RO Controller and Instruments"
+      ],
+      "relatedProducts": [
+        "Hydranautics CPA Membranes with LD Technology",
+        "Hydranautics SWC Membranes with LD Technology",
+        "Hydranautics LFC Membranes with LD Technology"
+      ]
+    },
+    {
+      "id": "brand-hydranautics-swc-ld-membranes",
+      "type": "brand-product",
+      "name": "SWC Membranes with LD Technology",
+      "brand": "Hydranautics",
+      "description": "Seawater RO membranes for desalination and boron reduction applications with varying seawater salinities.",
+      "imagePath": "/partners/hydranautics/products/ld-technology-ro-membranes.webp",
+      "category": "LD Technology RO Membranes",
+      "productPageUrl": "https://iconicfiltration.com/companies/hydranautics",
+      "quoteUrl": "https://iconicfiltration.com/request-quote?product=SWC%20Membranes%20with%20LD%20Technology",
+      "keyFeatures": [
+        "Feed TDS and water chemistry",
+        "Recovery target",
+        "Fouling and scaling risk",
+        "Cleaning strategy"
+      ],
+      "applications": [
+        "Seawater desalination",
+        "Hybrid desalination",
+        "Boron reduction"
+      ],
+      "technicalSpecifications": [],
+      "variants": [],
+      "compatibleProducts": [
+        "RO Housings",
+        "Domestic RO Membranes",
+        "RO Antiscalant",
+        "RO Controller and Instruments"
+      ],
+      "relatedProducts": [
+        "Hydranautics CPA Membranes with LD Technology",
+        "Hydranautics ESPA Membranes with LD Technology",
+        "Hydranautics LFC Membranes with LD Technology"
+      ]
+    },
+    {
+      "id": "brand-hydranautics-lfc-ld-membranes",
+      "type": "brand-product",
+      "name": "LFC Membranes with LD Technology",
+      "brand": "Hydranautics",
+      "description": "Low fouling membranes for municipal and industrial wastewater with organic fouling potential.",
+      "imagePath": "/partners/hydranautics/products/ld-technology-ro-membranes.webp",
+      "category": "LD Technology RO Membranes",
+      "productPageUrl": "https://iconicfiltration.com/companies/hydranautics",
+      "quoteUrl": "https://iconicfiltration.com/request-quote?product=LFC%20Membranes%20with%20LD%20Technology",
+      "keyFeatures": [
+        "Feed TDS and water chemistry",
+        "Recovery target",
+        "Fouling and scaling risk",
+        "Cleaning strategy"
+      ],
+      "applications": [
+        "Municipal wastewater",
+        "Industrial wastewater",
+        "High fouling feed water"
+      ],
+      "technicalSpecifications": [],
+      "variants": [],
+      "compatibleProducts": [
+        "RO Housings",
+        "Domestic RO Membranes",
+        "RO Antiscalant",
+        "RO Controller and Instruments"
+      ],
+      "relatedProducts": [
+        "Hydranautics CPA Membranes with LD Technology",
+        "Hydranautics ESPA Membranes with LD Technology",
+        "Hydranautics SWC Membranes with LD Technology"
+      ]
+    },
+    {
+      "id": "brand-hydranautics-pro-series-membranes",
+      "type": "brand-product",
+      "name": "PRO Series Membranes",
+      "brand": "Hydranautics",
+      "description": "Hydranautics PRO Series specialty membranes are designed for difficult industrial wastewater applications, including ZLD and MLD treatment requirements.",
+      "imagePath": "/partners/hydranautics/products/pro-series-specialty-membranes.webp",
+      "category": "PRO Series Specialty Membranes",
+      "productPageUrl": "https://iconicfiltration.com/companies/hydranautics",
+      "quoteUrl": "https://iconicfiltration.com/request-quote?product=PRO%20Series%20Membranes",
+      "keyFeatures": [
+        "Influent solids load",
+        "Target outlet quality",
+        "Backwash and sludge handling",
+        "Space and maintenance access"
+      ],
+      "applications": [
+        "Industrial wastewater",
+        "ZLD systems",
+        "MLD systems",
+        "Water recovery"
+      ],
+      "technicalSpecifications": [],
+      "variants": [],
+      "compatibleProducts": [
+        "Wastewater Dosing Systems",
+        "Wastewater Accessories"
+      ],
+      "relatedProducts": [
+        "FENTON UF 8585 Ultrafiltration Membrane",
+        "FENTON Hollow Fiber MBR Membrane"
+      ]
+    },
+    {
+      "id": "brand-dax-4-inch-end-entry-membrane-housings",
+      "type": "brand-product",
+      "name": "4 inch End Entry Membrane Housings",
+      "brand": "DAX",
+      "description": "End-entry membrane housings with 300, 450, 600, 1000, and 1200 PSI operating pressure options.",
+      "imagePath": "/partners/dax/products/ro-pressure-vessels.webp",
+      "category": "RO Pressure Vessels",
+      "productPageUrl": "https://iconicfiltration.com/companies/dax",
+      "quoteUrl": "https://iconicfiltration.com/request-quote?product=4%20inch%20End%20Entry%20Membrane%20Housings",
+      "keyFeatures": [
+        "Membrane size and element count",
+        "Feed pressure range",
+        "End-port or side-port arrangement",
+        "Material compatibility"
+      ],
+      "applications": [
+        "Commercial RO",
+        "Industrial RO",
+        "Brackish water treatment"
+      ],
+      "technicalSpecifications": [],
+      "variants": [],
+      "compatibleProducts": [
+        "RO Membranes",
+        "Domestic RO Membranes",
+        "RO Antiscalant",
+        "RO Controller and Instruments"
+      ],
+      "relatedProducts": [
+        "DAX 4 inch Side Entry Membrane Housings",
+        "DAX 8 inch End Entry Membrane Housings",
+        "DAX 8 inch Side Entry Membrane Housings",
+        "DAX 1500 and 1800 PSI Pressure Vessels",
+        "DAX Head Assembly"
+      ]
+    },
+    {
+      "id": "brand-dax-4-inch-side-entry-membrane-housings",
+      "type": "brand-product",
+      "name": "4 inch Side Entry Membrane Housings",
+      "brand": "DAX",
+      "description": "Side-entry membrane housings with operating pressure options from 300 to 1200 PSI.",
+      "imagePath": "/partners/dax/products/ro-pressure-vessels.webp",
+      "category": "RO Pressure Vessels",
+      "productPageUrl": "https://iconicfiltration.com/companies/dax",
+      "quoteUrl": "https://iconicfiltration.com/request-quote?product=4%20inch%20Side%20Entry%20Membrane%20Housings",
+      "keyFeatures": [
+        "Membrane size and element count",
+        "Feed pressure range",
+        "End-port or side-port arrangement",
+        "Material compatibility"
+      ],
+      "applications": [
+        "Commercial RO",
+        "Industrial RO",
+        "Compact RO skids"
+      ],
+      "technicalSpecifications": [],
+      "variants": [],
+      "compatibleProducts": [
+        "RO Membranes",
+        "Domestic RO Membranes",
+        "RO Antiscalant",
+        "RO Controller and Instruments"
+      ],
+      "relatedProducts": [
+        "DAX 4 inch End Entry Membrane Housings",
+        "DAX 8 inch End Entry Membrane Housings",
+        "DAX 8 inch Side Entry Membrane Housings",
+        "DAX 1500 and 1800 PSI Pressure Vessels",
+        "DAX Head Assembly"
+      ]
+    },
+    {
+      "id": "brand-dax-8-inch-end-entry-membrane-housings",
+      "type": "brand-product",
+      "name": "8 inch End Entry Membrane Housings",
+      "brand": "DAX",
+      "description": "End-entry membrane housings for up to 7 membrane elements, available across multiple pressure ratings.",
+      "imagePath": "/partners/dax/products/ro-pressure-vessels.webp",
+      "category": "RO Pressure Vessels",
+      "productPageUrl": "https://iconicfiltration.com/companies/dax",
+      "quoteUrl": "https://iconicfiltration.com/request-quote?product=8%20inch%20End%20Entry%20Membrane%20Housings",
+      "keyFeatures": [
+        "Membrane size and element count",
+        "Feed pressure range",
+        "End-port or side-port arrangement",
+        "Material compatibility"
+      ],
+      "applications": [
+        "Industrial RO",
+        "High-capacity RO plants",
+        "Process water treatment"
+      ],
+      "technicalSpecifications": [],
+      "variants": [],
+      "compatibleProducts": [
+        "RO Membranes",
+        "Domestic RO Membranes",
+        "RO Antiscalant",
+        "RO Controller and Instruments"
+      ],
+      "relatedProducts": [
+        "DAX 4 inch End Entry Membrane Housings",
+        "DAX 4 inch Side Entry Membrane Housings",
+        "DAX 8 inch Side Entry Membrane Housings",
+        "DAX 1500 and 1800 PSI Pressure Vessels",
+        "DAX Head Assembly"
+      ]
+    },
+    {
+      "id": "brand-dax-8-inch-side-entry-membrane-housings",
+      "type": "brand-product",
+      "name": "8 inch Side Entry Membrane Housings",
+      "brand": "DAX",
+      "description": "Side-entry membrane housings for larger RO systems, with 300, 450, 600, 1000, and 1200 PSI options.",
+      "imagePath": "/partners/dax/products/ro-pressure-vessels.webp",
+      "category": "RO Pressure Vessels",
+      "productPageUrl": "https://iconicfiltration.com/companies/dax",
+      "quoteUrl": "https://iconicfiltration.com/request-quote?product=8%20inch%20Side%20Entry%20Membrane%20Housings",
+      "keyFeatures": [
+        "Membrane size and element count",
+        "Feed pressure range",
+        "End-port or side-port arrangement",
+        "Material compatibility"
+      ],
+      "applications": [
+        "Industrial RO",
+        "Large RO systems",
+        "Brackish water treatment"
+      ],
+      "technicalSpecifications": [],
+      "variants": [],
+      "compatibleProducts": [
+        "RO Membranes",
+        "Domestic RO Membranes",
+        "RO Antiscalant",
+        "RO Controller and Instruments"
+      ],
+      "relatedProducts": [
+        "DAX 4 inch End Entry Membrane Housings",
+        "DAX 4 inch Side Entry Membrane Housings",
+        "DAX 8 inch End Entry Membrane Housings",
+        "DAX 1500 and 1800 PSI Pressure Vessels",
+        "DAX Head Assembly"
+      ]
+    },
+    {
+      "id": "brand-dax-1500-1800-psi-pressure-vessels",
+      "type": "brand-product",
+      "name": "1500 and 1800 PSI Pressure Vessels",
+      "brand": "DAX",
+      "description": "Higher-pressure DAX pressure vessel options noted in the catalog for demanding RO applications.",
+      "imagePath": "/partners/dax/products/ro-pressure-vessels.webp",
+      "category": "RO Pressure Vessels",
+      "productPageUrl": "https://iconicfiltration.com/companies/dax",
+      "quoteUrl": "https://iconicfiltration.com/request-quote?product=1500%20and%201800%20PSI%20Pressure%20Vessels",
+      "keyFeatures": [
+        "Membrane size and element count",
+        "Feed pressure range",
+        "End-port or side-port arrangement",
+        "Material compatibility"
+      ],
+      "applications": [
+        "High pressure RO",
+        "Seawater applications",
+        "Special project requirements"
+      ],
+      "technicalSpecifications": [],
+      "variants": [],
+      "compatibleProducts": [
+        "RO Membranes",
+        "Domestic RO Membranes",
+        "RO Antiscalant",
+        "RO Controller and Instruments"
+      ],
+      "relatedProducts": [
+        "DAX 4 inch End Entry Membrane Housings",
+        "DAX 4 inch Side Entry Membrane Housings",
+        "DAX 8 inch End Entry Membrane Housings",
+        "DAX 8 inch Side Entry Membrane Housings",
+        "DAX Head Assembly"
+      ]
+    },
+    {
+      "id": "brand-dax-head-assembly",
+      "type": "brand-product",
+      "name": "Head Assembly",
+      "brand": "DAX",
+      "description": "Side-port and end-port head assemblies for pressure vessel service and replacement.",
+      "imagePath": "/partners/dax/products/pressure-vessel-accessories.webp",
+      "category": "Pressure Vessel Accessories",
+      "productPageUrl": "https://iconicfiltration.com/companies/dax",
+      "quoteUrl": "https://iconicfiltration.com/request-quote?product=Head%20Assembly",
+      "keyFeatures": [
+        "Membrane size and element count",
+        "Feed pressure range",
+        "End-port or side-port arrangement",
+        "Material compatibility"
+      ],
+      "applications": [
+        "Pressure vessel maintenance",
+        "RO housing replacement"
+      ],
+      "technicalSpecifications": [],
+      "variants": [],
+      "compatibleProducts": [
+        "RO Membranes",
+        "Domestic RO Membranes",
+        "RO Antiscalant",
+        "RO Controller and Instruments"
+      ],
+      "relatedProducts": [
+        "DAX 4 inch End Entry Membrane Housings",
+        "DAX 4 inch Side Entry Membrane Housings",
+        "DAX 8 inch End Entry Membrane Housings",
+        "DAX 8 inch Side Entry Membrane Housings",
+        "DAX 1500 and 1800 PSI Pressure Vessels"
+      ]
+    },
+    {
+      "id": "brand-dax-bearing-plate",
+      "type": "brand-product",
+      "name": "Bearing Plate",
+      "brand": "DAX",
+      "description": "Pressure vessel bearing plate accessory for supported membrane housing assemblies.",
+      "imagePath": "/partners/dax/products/pressure-vessel-accessories.webp",
+      "category": "Pressure Vessel Accessories",
+      "productPageUrl": "https://iconicfiltration.com/companies/dax",
+      "quoteUrl": "https://iconicfiltration.com/request-quote?product=Bearing%20Plate",
+      "keyFeatures": [
+        "Membrane size and element count",
+        "Feed pressure range",
+        "End-port or side-port arrangement",
+        "Material compatibility"
+      ],
+      "applications": [
+        "RO vessel servicing",
+        "Accessory replacement"
+      ],
+      "technicalSpecifications": [],
+      "variants": [],
+      "compatibleProducts": [
+        "RO Membranes",
+        "Domestic RO Membranes",
+        "RO Antiscalant",
+        "RO Controller and Instruments"
+      ],
+      "relatedProducts": [
+        "DAX 4 inch End Entry Membrane Housings",
+        "DAX 4 inch Side Entry Membrane Housings",
+        "DAX 8 inch End Entry Membrane Housings",
+        "DAX 8 inch Side Entry Membrane Housings",
+        "DAX 1500 and 1800 PSI Pressure Vessels"
+      ]
+    },
+    {
+      "id": "brand-dax-sealing-plate",
+      "type": "brand-product",
+      "name": "Sealing Plate",
+      "brand": "DAX",
+      "description": "Engineering thermoplastic sealing plate for side-port and end-port vessel configurations.",
+      "imagePath": "/partners/dax/products/pressure-vessel-accessories.webp",
+      "category": "Pressure Vessel Accessories",
+      "productPageUrl": "https://iconicfiltration.com/companies/dax",
+      "quoteUrl": "https://iconicfiltration.com/request-quote?product=Sealing%20Plate",
+      "keyFeatures": [
+        "Membrane size and element count",
+        "Feed pressure range",
+        "End-port or side-port arrangement",
+        "Material compatibility"
+      ],
+      "applications": [
+        "Pressure vessel sealing",
+        "RO housing maintenance"
+      ],
+      "technicalSpecifications": [],
+      "variants": [],
+      "compatibleProducts": [
+        "RO Membranes",
+        "Domestic RO Membranes",
+        "RO Antiscalant",
+        "RO Controller and Instruments"
+      ],
+      "relatedProducts": [
+        "DAX 4 inch End Entry Membrane Housings",
+        "DAX 4 inch Side Entry Membrane Housings",
+        "DAX 8 inch End Entry Membrane Housings",
+        "DAX 8 inch Side Entry Membrane Housings",
+        "DAX 1500 and 1800 PSI Pressure Vessels"
+      ]
+    },
+    {
+      "id": "brand-dax-permeate-port",
+      "type": "brand-product",
+      "name": "Permeate Port",
+      "brand": "DAX",
+      "description": "Permeate port accessory with NPT female thread connection for RO pressure vessels.",
+      "imagePath": "/partners/dax/products/pressure-vessel-accessories.webp",
+      "category": "Pressure Vessel Accessories",
+      "productPageUrl": "https://iconicfiltration.com/companies/dax",
+      "quoteUrl": "https://iconicfiltration.com/request-quote?product=Permeate%20Port",
+      "keyFeatures": [
+        "Membrane size and element count",
+        "Feed pressure range",
+        "End-port or side-port arrangement",
+        "Material compatibility"
+      ],
+      "applications": [
+        "RO permeate connection",
+        "Vessel servicing"
+      ],
+      "technicalSpecifications": [],
+      "variants": [],
+      "compatibleProducts": [
+        "RO Membranes",
+        "Domestic RO Membranes",
+        "RO Antiscalant",
+        "RO Controller and Instruments"
+      ],
+      "relatedProducts": [
+        "DAX 4 inch End Entry Membrane Housings",
+        "DAX 4 inch Side Entry Membrane Housings",
+        "DAX 8 inch End Entry Membrane Housings",
+        "DAX 8 inch Side Entry Membrane Housings",
+        "DAX 1500 and 1800 PSI Pressure Vessels"
+      ]
+    },
+    {
+      "id": "brand-dax-feed-concentrate-port",
+      "type": "brand-product",
+      "name": "Feed/Concentrate Port",
+      "brand": "DAX",
+      "description": "Feed and concentrate port accessories available in stainless steel material options.",
+      "imagePath": "/partners/dax/products/pressure-vessel-accessories.webp",
+      "category": "Pressure Vessel Accessories",
+      "productPageUrl": "https://iconicfiltration.com/companies/dax",
+      "quoteUrl": "https://iconicfiltration.com/request-quote?product=Feed%2FConcentrate%20Port",
+      "keyFeatures": [
+        "Membrane size and element count",
+        "Feed pressure range",
+        "End-port or side-port arrangement",
+        "Material compatibility"
+      ],
+      "applications": [
+        "RO feed connection",
+        "RO reject connection",
+        "Vessel maintenance"
+      ],
+      "technicalSpecifications": [],
+      "variants": [],
+      "compatibleProducts": [
+        "RO Membranes",
+        "Domestic RO Membranes",
+        "RO Antiscalant",
+        "RO Controller and Instruments"
+      ],
+      "relatedProducts": [
+        "DAX 4 inch End Entry Membrane Housings",
+        "DAX 4 inch Side Entry Membrane Housings",
+        "DAX 8 inch End Entry Membrane Housings",
+        "DAX 8 inch Side Entry Membrane Housings",
+        "DAX 1500 and 1800 PSI Pressure Vessels"
+      ]
+    },
+    {
+      "id": "brand-dax-adapter-set",
+      "type": "brand-product",
+      "name": "Adapter Set",
+      "brand": "DAX",
+      "description": "Adapter set with adapter seal, PWT seal, and spacers.",
+      "imagePath": "/partners/dax/products/pressure-vessel-accessories.webp",
+      "category": "Pressure Vessel Accessories",
+      "productPageUrl": "https://iconicfiltration.com/companies/dax",
+      "quoteUrl": "https://iconicfiltration.com/request-quote?product=Adapter%20Set",
+      "keyFeatures": [
+        "Membrane size and element count",
+        "Feed pressure range",
+        "End-port or side-port arrangement",
+        "Material compatibility"
+      ],
+      "applications": [
+        "Membrane installation",
+        "RO vessel accessory replacement"
+      ],
+      "technicalSpecifications": [],
+      "variants": [],
+      "compatibleProducts": [
+        "RO Membranes",
+        "Domestic RO Membranes",
+        "RO Antiscalant",
+        "RO Controller and Instruments"
+      ],
+      "relatedProducts": [
+        "DAX 4 inch End Entry Membrane Housings",
+        "DAX 4 inch Side Entry Membrane Housings",
+        "DAX 8 inch End Entry Membrane Housings",
+        "DAX 8 inch Side Entry Membrane Housings",
+        "DAX 1500 and 1800 PSI Pressure Vessels"
+      ]
+    },
+    {
+      "id": "brand-dax-strap-assembly",
+      "type": "brand-product",
+      "name": "Strap Assembly",
+      "brand": "DAX",
+      "description": "SS316 strap assembly with PVC cushion for pressure vessel mounting support.",
+      "imagePath": "/partners/dax/products/pressure-vessel-accessories.webp",
+      "category": "Pressure Vessel Accessories",
+      "productPageUrl": "https://iconicfiltration.com/companies/dax",
+      "quoteUrl": "https://iconicfiltration.com/request-quote?product=Strap%20Assembly",
+      "keyFeatures": [
+        "Membrane size and element count",
+        "Feed pressure range",
+        "End-port or side-port arrangement",
+        "Material compatibility"
+      ],
+      "applications": [
+        "Vessel mounting",
+        "RO skid assembly"
+      ],
+      "technicalSpecifications": [],
+      "variants": [],
+      "compatibleProducts": [
+        "RO Membranes",
+        "Domestic RO Membranes",
+        "RO Antiscalant",
+        "RO Controller and Instruments"
+      ],
+      "relatedProducts": [
+        "DAX 4 inch End Entry Membrane Housings",
+        "DAX 4 inch Side Entry Membrane Housings",
+        "DAX 8 inch End Entry Membrane Housings",
+        "DAX 8 inch Side Entry Membrane Housings",
+        "DAX 1500 and 1800 PSI Pressure Vessels"
+      ]
+    },
+    {
+      "id": "brand-dax-thrust-ring-and-interconnector",
+      "type": "brand-product",
+      "name": "Thrust Ring and Membrane Interconnector",
+      "brand": "DAX",
+      "description": "Engineering thermoplastic thrust ring and membrane interconnector accessories.",
+      "imagePath": "/partners/dax/products/pressure-vessel-accessories.webp",
+      "category": "Pressure Vessel Accessories",
+      "productPageUrl": "https://iconicfiltration.com/companies/dax",
+      "quoteUrl": "https://iconicfiltration.com/request-quote?product=Thrust%20Ring%20and%20Membrane%20Interconnector",
+      "keyFeatures": [
+        "Membrane size and element count",
+        "Feed pressure range",
+        "End-port or side-port arrangement",
+        "Material compatibility"
+      ],
+      "applications": [
+        "Membrane support",
+        "RO vessel servicing"
+      ],
+      "technicalSpecifications": [],
+      "variants": [],
+      "compatibleProducts": [
+        "RO Membranes",
+        "Domestic RO Membranes",
+        "RO Antiscalant",
+        "RO Controller and Instruments"
+      ],
+      "relatedProducts": [
+        "DAX 4 inch End Entry Membrane Housings",
+        "DAX 4 inch Side Entry Membrane Housings",
+        "DAX 8 inch End Entry Membrane Housings",
+        "DAX 8 inch Side Entry Membrane Housings",
+        "DAX 1500 and 1800 PSI Pressure Vessels"
+      ]
+    },
+    {
+      "id": "brand-dax-brine-seal-and-retaining-ring",
+      "type": "brand-product",
+      "name": "Brine Seal and Retaining Ring",
+      "brand": "DAX",
+      "description": "EPDM brine seal and stainless steel retaining ring accessories for pressure vessel maintenance.",
+      "imagePath": "/partners/dax/products/pressure-vessel-accessories.webp",
+      "category": "Pressure Vessel Accessories",
+      "productPageUrl": "https://iconicfiltration.com/companies/dax",
+      "quoteUrl": "https://iconicfiltration.com/request-quote?product=Brine%20Seal%20and%20Retaining%20Ring",
+      "keyFeatures": [
+        "Membrane size and element count",
+        "Feed pressure range",
+        "End-port or side-port arrangement",
+        "Material compatibility"
+      ],
+      "applications": [
+        "RO vessel sealing",
+        "Membrane housing maintenance"
+      ],
+      "technicalSpecifications": [],
+      "variants": [],
+      "compatibleProducts": [
+        "RO Membranes",
+        "Domestic RO Membranes",
+        "RO Antiscalant",
+        "RO Controller and Instruments"
+      ],
+      "relatedProducts": [
+        "DAX 4 inch End Entry Membrane Housings",
+        "DAX 4 inch Side Entry Membrane Housings",
+        "DAX 8 inch End Entry Membrane Housings",
+        "DAX 8 inch Side Entry Membrane Housings",
+        "DAX 1500 and 1800 PSI Pressure Vessels"
+      ]
+    },
+    {
+      "id": "brand-dax-saddle",
+      "type": "brand-product",
+      "name": "Saddle",
+      "brand": "DAX",
+      "description": "Engineering thermoplastic saddle accessory for RO pressure vessel installation.",
+      "imagePath": "/partners/dax/products/pressure-vessel-accessories.webp",
+      "category": "Pressure Vessel Accessories",
+      "productPageUrl": "https://iconicfiltration.com/companies/dax",
+      "quoteUrl": "https://iconicfiltration.com/request-quote?product=Saddle",
+      "keyFeatures": [
+        "Membrane size and element count",
+        "Feed pressure range",
+        "End-port or side-port arrangement",
+        "Material compatibility"
+      ],
+      "applications": [
+        "Vessel support",
+        "RO skid installation"
+      ],
+      "technicalSpecifications": [],
+      "variants": [],
+      "compatibleProducts": [
+        "RO Membranes",
+        "Domestic RO Membranes",
+        "RO Antiscalant",
+        "RO Controller and Instruments"
+      ],
+      "relatedProducts": [
+        "DAX 4 inch End Entry Membrane Housings",
+        "DAX 4 inch Side Entry Membrane Housings",
+        "DAX 8 inch End Entry Membrane Housings",
+        "DAX 8 inch Side Entry Membrane Housings",
+        "DAX 1500 and 1800 PSI Pressure Vessels"
+      ]
+    },
+    {
+      "id": "brand-fenton-uf-8585-ultrafiltration-membrane",
+      "type": "brand-product",
+      "name": "UF 8585 Ultrafiltration Membrane",
+      "brand": "FENTON",
+      "description": "Ultra filtration membrane with membrane surface area of 77 m2 / 828 ft2, pore size 0.03 um, and design flux range of 36-120 L/m2-h.",
+      "imagePath": "/partners/fenton/products/uf-8585-ultrafiltration-membrane.webp",
+      "category": "Ultrafiltration Membranes",
+      "productPageUrl": "https://iconicfiltration.com/companies/fenton",
+      "quoteUrl": "https://iconicfiltration.com/request-quote?product=UF%208585%20Ultrafiltration%20Membrane",
+      "keyFeatures": [
+        "Influent solids load",
+        "Target outlet quality",
+        "Backwash and sludge handling",
+        "Space and maintenance access"
+      ],
+      "applications": [
+        "Ultrafiltration",
+        "Clean water output",
+        "Industrial filtration",
+        "Water treatment"
+      ],
+      "technicalSpecifications": [],
+      "variants": [],
+      "compatibleProducts": [
+        "Wastewater Dosing Systems",
+        "Wastewater Accessories"
+      ],
+      "relatedProducts": [
+        "Hydranautics PRO Series Membranes",
+        "FENTON Hollow Fiber MBR Membrane"
+      ]
+    },
+    {
+      "id": "brand-fenton-hollow-fiber-mbr-membrane",
+      "type": "brand-product",
+      "name": "Hollow Fiber MBR Membrane",
+      "brand": "FENTON",
+      "description": "FENTON MBR hollow fiber membrane product for membrane bioreactor filtration systems.",
+      "imagePath": "/partners/fenton/products/hollow-fiber-mbr-membrane.webp",
+      "category": "MBR Membranes",
+      "productPageUrl": "https://iconicfiltration.com/companies/fenton",
+      "quoteUrl": "https://iconicfiltration.com/request-quote?product=Hollow%20Fiber%20MBR%20Membrane",
+      "keyFeatures": [
+        "Influent solids load",
+        "Target outlet quality",
+        "Backwash and sludge handling",
+        "Space and maintenance access"
+      ],
+      "applications": [
+        "MBR systems",
+        "Wastewater treatment",
+        "Biological treatment",
+        "Treated water reuse"
+      ],
+      "technicalSpecifications": [],
+      "variants": [],
+      "compatibleProducts": [
+        "Wastewater Dosing Systems",
+        "Wastewater Accessories"
+      ],
+      "relatedProducts": [
+        "Hydranautics PRO Series Membranes",
+        "FENTON UF 8585 Ultrafiltration Membrane"
+      ]
+    },
+    {
+      "id": "brand-fenton-compact-heavy-duty-oil-skimmer",
+      "type": "brand-product",
+      "name": "Compact Heavy Duty Oil Skimmer",
+      "brand": "FENTON",
+      "description": "FENTON oil skimmer with heavy-duty motor, anti-rust body, high quality roller, relocation handle, PU belt, dual scraper, and up to 60 L/hr oil removal claim from supplied artwork.",
+      "imagePath": "/partners/fenton/products/compact-heavy-duty-oil-skimmer.webp",
+      "category": "Oil Skimmers",
+      "productPageUrl": "https://iconicfiltration.com/companies/fenton",
+      "quoteUrl": "https://iconicfiltration.com/request-quote?product=Compact%20Heavy%20Duty%20Oil%20Skimmer",
+      "keyFeatures": [
+        "Plant process flow",
+        "Material compatibility",
+        "Maintenance frequency",
+        "Operator safety requirements"
+      ],
+      "applications": [
+        "Oil removal",
+        "Industrial wastewater",
+        "Coolant tank oil removal",
+        "Machine shop utilities"
+      ],
+      "technicalSpecifications": [],
+      "variants": [],
+      "compatibleProducts": [
+        "Wastewater Filtration Systems",
+        "Wastewater Dosing Systems"
+      ],
+      "relatedProducts": []
+    }
+  ]
+}

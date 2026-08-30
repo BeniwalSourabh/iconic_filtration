@@ -1,0 +1,711 @@
+generator client {
+  provider = "prisma-client-js"
+}
+
+datasource db {
+  provider = "postgresql"
+}
+
+enum UserStatus {
+  INVITED
+  ACTIVE
+  SUSPENDED
+  ARCHIVED
+}
+
+enum RoleKey {
+  SUPER_ADMIN
+  ADMIN
+  EDITOR
+  SALES
+  VIEWER
+}
+
+enum PublishStatus {
+  DRAFT
+  REVIEW
+  PUBLISHED
+  ARCHIVED
+}
+
+enum MediaType {
+  IMAGE
+  VIDEO
+  DOCUMENT
+}
+
+enum LeadStatus {
+  NEW
+  QUALIFIED
+  CONTACTED
+  PROPOSAL_SENT
+  WON
+  LOST
+  SPAM
+  ARCHIVED
+}
+
+enum LeadSource {
+  WEBSITE
+  WHATSAPP
+  PHONE
+  EMAIL
+  REFERRAL
+  EXHIBITION
+  OTHER
+}
+
+enum DownloadType {
+  BROCHURE
+  DATASHEET
+  CATALOG
+  CERTIFICATE
+  MANUAL
+  OTHER
+}
+
+enum SubscriptionStatus {
+  SUBSCRIBED
+  UNSUBSCRIBED
+  BOUNCED
+  COMPLAINED
+}
+
+enum SettingValueType {
+  STRING
+  NUMBER
+  BOOLEAN
+  JSON
+  URL
+  EMAIL
+  PHONE
+}
+
+model User {
+  id            String     @id @default(cuid())
+  name          String?
+  email         String     @unique
+  emailVerified DateTime?
+  image         String?
+  passwordHash  String?
+  phone         String?
+  designation   String?
+  status        UserStatus @default(INVITED)
+  lastLoginAt   DateTime?
+  createdAt     DateTime   @default(now())
+  updatedAt     DateTime   @updatedAt
+
+  accounts                 Account[]
+  sessions                 Session[]
+  roleAssignments          UserRole[]
+  assignedRoleAssignments  UserRole[]       @relation("RoleAssignedBy")
+  auditLogs                AuditLog[]       @relation("AuditActor")
+  createdProducts          Product[]        @relation("ProductCreatedBy")
+  updatedProducts          Product[]        @relation("ProductUpdatedBy")
+  authoredBlogPosts        BlogPost[]       @relation("BlogAuthor")
+  assignedQuoteRequests    QuoteRequest[]   @relation("QuoteAssignedTo")
+  assignedContactEnquiries ContactEnquiry[] @relation("ContactAssignedTo")
+
+  @@index([status])
+  @@index([createdAt])
+}
+
+model Account {
+  id                String  @id @default(cuid())
+  userId            String
+  type              String
+  provider          String
+  providerAccountId String
+  refresh_token     String? @db.Text
+  access_token      String? @db.Text
+  expires_at        Int?
+  token_type        String?
+  scope             String?
+  id_token          String? @db.Text
+  session_state     String?
+
+  user User @relation(fields: [userId], references: [id], onDelete: Cascade)
+
+  @@unique([provider, providerAccountId])
+  @@index([userId])
+}
+
+model Session {
+  id           String   @id @default(cuid())
+  sessionToken String   @unique
+  userId       String
+  expires      DateTime
+
+  user User @relation(fields: [userId], references: [id], onDelete: Cascade)
+
+  @@index([userId])
+}
+
+model VerificationToken {
+  identifier String
+  token      String   @unique
+  expires    DateTime
+
+  @@unique([identifier, token])
+}
+
+model Role {
+  id          String   @id @default(cuid())
+  key         RoleKey  @unique
+  name        String
+  description String?
+  permissions String[] @default([])
+  createdAt   DateTime @default(now())
+  updatedAt   DateTime @updatedAt
+
+  users UserRole[]
+}
+
+model UserRole {
+  userId       String
+  roleId       String
+  assignedById String?
+  assignedAt   DateTime @default(now())
+
+  user       User  @relation(fields: [userId], references: [id], onDelete: Cascade)
+  role       Role  @relation(fields: [roleId], references: [id], onDelete: Cascade)
+  assignedBy User? @relation("RoleAssignedBy", fields: [assignedById], references: [id], onDelete: SetNull)
+
+  @@id([userId, roleId])
+  @@index([roleId])
+  @@index([assignedById])
+}
+
+model AuditLog {
+  id         String   @id @default(cuid())
+  actorId    String?
+  action     String
+  entityType String
+  entityId   String?
+  metadata   Json?
+  ipAddress  String?
+  userAgent  String?
+  createdAt  DateTime @default(now())
+
+  actor User? @relation("AuditActor", fields: [actorId], references: [id], onDelete: SetNull)
+
+  @@index([actorId])
+  @@index([entityType, entityId])
+  @@index([createdAt])
+}
+
+model ProductCategory {
+  id               String        @id @default(cuid())
+  parentId         String?
+  slug             String        @unique
+  name             String
+  shortDescription String?
+  description      String?       @db.Text
+  heroImageUrl     String?
+  iconName         String?
+  position         Int           @default(0)
+  status           PublishStatus @default(DRAFT)
+  createdAt        DateTime      @default(now())
+  updatedAt        DateTime      @updatedAt
+
+  parent        ProductCategory?  @relation("ProductCategoryHierarchy", fields: [parentId], references: [id], onDelete: SetNull)
+  children      ProductCategory[] @relation("ProductCategoryHierarchy")
+  products      Product[]
+  quoteRequests QuoteRequest[]
+
+  @@index([parentId])
+  @@index([status, position])
+}
+
+model Product {
+  id            String        @id @default(cuid())
+  categoryId    String
+  createdById   String?
+  updatedById   String?
+  slug          String        @unique
+  sku           String?       @unique
+  name          String
+  subtitle      String?
+  summary       String        @db.Text
+  description   String?       @db.Text
+  capacityRange String?
+  material      String?
+  applications  String[]      @default([])
+  standards     String[]      @default([])
+  status        PublishStatus @default(DRAFT)
+  featured      Boolean       @default(false)
+  isActive      Boolean       @default(true)
+  position      Int           @default(0)
+  publishedAt   DateTime?
+  createdAt     DateTime      @default(now())
+  updatedAt     DateTime      @updatedAt
+
+  category       ProductCategory        @relation(fields: [categoryId], references: [id], onDelete: Restrict)
+  createdBy      User?                  @relation("ProductCreatedBy", fields: [createdById], references: [id], onDelete: SetNull)
+  updatedBy      User?                  @relation("ProductUpdatedBy", fields: [updatedById], references: [id], onDelete: SetNull)
+  images         ProductImage[]
+  specifications ProductSpecification[]
+  industryLinks  ProductIndustry[]
+  downloadLinks  ProductDownload[]
+  quoteItems     QuoteRequestItem[]
+  faqs           Faq[]
+  relatedFrom    ProductRelation[]      @relation("ProductRelationFrom")
+  relatedTo      ProductRelation[]      @relation("ProductRelationTo")
+
+  @@index([categoryId])
+  @@index([status, featured])
+  @@index([createdById])
+  @@index([updatedById])
+}
+
+model ProductImage {
+  id                 String   @id @default(cuid())
+  productId          String
+  url                String
+  cloudinaryPublicId String?
+  altText            String
+  width              Int?
+  height             Int?
+  isPrimary          Boolean  @default(false)
+  position           Int      @default(0)
+  createdAt          DateTime @default(now())
+  updatedAt          DateTime @updatedAt
+
+  product Product @relation(fields: [productId], references: [id], onDelete: Cascade)
+
+  @@index([productId, position])
+}
+
+model ProductSpecification {
+  id        String   @id @default(cuid())
+  productId String
+  group     String?
+  name      String
+  value     String
+  unit      String?
+  position  Int      @default(0)
+  createdAt DateTime @default(now())
+  updatedAt DateTime @updatedAt
+
+  product Product @relation(fields: [productId], references: [id], onDelete: Cascade)
+
+  @@index([productId, position])
+}
+
+model ProductRelation {
+  id               String   @id @default(cuid())
+  fromProductId    String
+  relatedProductId String
+  relationType     String   @default("RELATED")
+  position         Int      @default(0)
+  createdAt        DateTime @default(now())
+
+  fromProduct    Product @relation("ProductRelationFrom", fields: [fromProductId], references: [id], onDelete: Cascade)
+  relatedProduct Product @relation("ProductRelationTo", fields: [relatedProductId], references: [id], onDelete: Cascade)
+
+  @@unique([fromProductId, relatedProductId])
+  @@index([relatedProductId])
+}
+
+model Industry {
+  id               String        @id @default(cuid())
+  slug             String        @unique
+  name             String
+  shortDescription String?
+  description      String?       @db.Text
+  heroImageUrl     String?
+  iconName         String?
+  position         Int           @default(0)
+  featured         Boolean       @default(false)
+  status           PublishStatus @default(DRAFT)
+  createdAt        DateTime      @default(now())
+  updatedAt        DateTime      @updatedAt
+
+  productLinks     ProductIndustry[]
+  projects         Project[]
+  caseStudies      CaseStudy[]
+  testimonials     Testimonial[]
+  quoteRequests    QuoteRequest[]
+  contactEnquiries ContactEnquiry[]
+
+  @@index([status, featured])
+}
+
+model ProductIndustry {
+  productId  String
+  industryId String
+  createdAt  DateTime @default(now())
+
+  product  Product  @relation(fields: [productId], references: [id], onDelete: Cascade)
+  industry Industry @relation(fields: [industryId], references: [id], onDelete: Cascade)
+
+  @@id([productId, industryId])
+  @@index([industryId])
+}
+
+model Project {
+  id             String        @id @default(cuid())
+  industryId     String?
+  slug           String        @unique
+  title          String
+  clientName     String?
+  location       String?
+  summary        String        @db.Text
+  challenge      String?       @db.Text
+  solution       String?       @db.Text
+  outcome        String?       @db.Text
+  completionDate DateTime?
+  coverImageUrl  String?
+  status         PublishStatus @default(DRAFT)
+  featured       Boolean       @default(false)
+  publishedAt    DateTime?
+  createdAt      DateTime      @default(now())
+  updatedAt      DateTime      @updatedAt
+
+  industry  Industry?      @relation(fields: [industryId], references: [id], onDelete: SetNull)
+  images    ProjectImage[]
+  caseStudy CaseStudy?
+
+  @@index([industryId])
+  @@index([status, featured])
+}
+
+model ProjectImage {
+  id                 String   @id @default(cuid())
+  projectId          String
+  url                String
+  cloudinaryPublicId String?
+  altText            String
+  position           Int      @default(0)
+  createdAt          DateTime @default(now())
+
+  project Project @relation(fields: [projectId], references: [id], onDelete: Cascade)
+
+  @@index([projectId, position])
+}
+
+model CaseStudy {
+  id            String        @id @default(cuid())
+  projectId     String?       @unique
+  industryId    String?
+  slug          String        @unique
+  title         String
+  excerpt       String?
+  content       String        @db.Text
+  coverImageUrl String?
+  status        PublishStatus @default(DRAFT)
+  featured      Boolean       @default(false)
+  publishedAt   DateTime?
+  createdAt     DateTime      @default(now())
+  updatedAt     DateTime      @updatedAt
+
+  project  Project?  @relation(fields: [projectId], references: [id], onDelete: SetNull)
+  industry Industry? @relation(fields: [industryId], references: [id], onDelete: SetNull)
+
+  @@index([industryId])
+  @@index([status, featured])
+}
+
+model BlogCategory {
+  id          String        @id @default(cuid())
+  slug        String        @unique
+  name        String
+  description String?
+  status      PublishStatus @default(PUBLISHED)
+  position    Int           @default(0)
+  createdAt   DateTime      @default(now())
+  updatedAt   DateTime      @updatedAt
+
+  posts BlogPostCategory[]
+}
+
+model BlogPost {
+  id            String        @id @default(cuid())
+  authorId      String?
+  slug          String        @unique
+  title         String
+  excerpt       String        @db.Text
+  content       String        @db.Text
+  coverImageUrl String?
+  status        PublishStatus @default(DRAFT)
+  featured      Boolean       @default(false)
+  publishedAt   DateTime?
+  createdAt     DateTime      @default(now())
+  updatedAt     DateTime      @updatedAt
+
+  author     User?              @relation("BlogAuthor", fields: [authorId], references: [id], onDelete: SetNull)
+  categories BlogPostCategory[]
+
+  @@index([authorId])
+  @@index([status, publishedAt])
+}
+
+model BlogPostCategory {
+  blogPostId String
+  categoryId String
+  createdAt  DateTime @default(now())
+
+  blogPost BlogPost     @relation(fields: [blogPostId], references: [id], onDelete: Cascade)
+  category BlogCategory @relation(fields: [categoryId], references: [id], onDelete: Cascade)
+
+  @@id([blogPostId, categoryId])
+  @@index([categoryId])
+}
+
+model Faq {
+  id        String        @id @default(cuid())
+  productId String?
+  question  String
+  answer    String        @db.Text
+  category  String?
+  pagePath  String?
+  position  Int           @default(0)
+  status    PublishStatus @default(PUBLISHED)
+  createdAt DateTime      @default(now())
+  updatedAt DateTime      @updatedAt
+
+  product Product? @relation(fields: [productId], references: [id], onDelete: Cascade)
+
+  @@index([productId, position])
+  @@index([pagePath])
+  @@index([status])
+}
+
+model GalleryItem {
+  id                 String        @id @default(cuid())
+  slug               String?       @unique
+  title              String
+  caption            String?
+  mediaType          MediaType     @default(IMAGE)
+  url                String
+  cloudinaryPublicId String?
+  altText            String
+  category           String?
+  position           Int           @default(0)
+  status             PublishStatus @default(DRAFT)
+  createdAt          DateTime      @default(now())
+  updatedAt          DateTime      @updatedAt
+
+  @@index([status, position])
+  @@index([category])
+}
+
+model Testimonial {
+  id          String        @id @default(cuid())
+  industryId  String?
+  name        String
+  company     String?
+  designation String?
+  quote       String        @db.Text
+  rating      Int?
+  imageUrl    String?
+  featured    Boolean       @default(false)
+  position    Int           @default(0)
+  status      PublishStatus @default(DRAFT)
+  createdAt   DateTime      @default(now())
+  updatedAt   DateTime      @updatedAt
+
+  industry Industry? @relation(fields: [industryId], references: [id], onDelete: SetNull)
+
+  @@index([industryId])
+  @@index([status, featured])
+}
+
+model Certificate {
+  id                 String        @id @default(cuid())
+  slug               String        @unique
+  title              String
+  issuingAuthority   String?
+  certificateNumber  String?
+  issuedAt           DateTime?
+  expiresAt          DateTime?
+  imageUrl           String?
+  fileUrl            String?
+  cloudinaryPublicId String?
+  featured           Boolean       @default(false)
+  position           Int           @default(0)
+  status             PublishStatus @default(DRAFT)
+  createdAt          DateTime      @default(now())
+  updatedAt          DateTime      @updatedAt
+
+  @@index([status, featured])
+}
+
+model Download {
+  id                 String        @id @default(cuid())
+  slug               String        @unique
+  title              String
+  description        String?
+  type               DownloadType  @default(OTHER)
+  fileUrl            String
+  cloudinaryPublicId String?
+  fileType           String?
+  fileSizeBytes      Int?
+  version            String?
+  gated              Boolean       @default(false)
+  position           Int           @default(0)
+  status             PublishStatus @default(DRAFT)
+  publishedAt        DateTime?
+  createdAt          DateTime      @default(now())
+  updatedAt          DateTime      @updatedAt
+
+  productLinks ProductDownload[]
+
+  @@index([type])
+  @@index([status, position])
+}
+
+model ProductDownload {
+  productId  String
+  downloadId String
+  createdAt  DateTime @default(now())
+
+  product  Product  @relation(fields: [productId], references: [id], onDelete: Cascade)
+  download Download @relation(fields: [downloadId], references: [id], onDelete: Cascade)
+
+  @@id([productId, downloadId])
+  @@index([downloadId])
+}
+
+model QuoteRequest {
+  id                String     @id @default(cuid())
+  publicId          String     @unique @default(cuid())
+  assignedToId      String?
+  industryId        String?
+  productCategoryId String?
+  name              String
+  company           String?
+  email             String
+  phone             String
+  country           String?
+  state             String?
+  city              String?
+  application       String?
+  capacity          String?
+  timeline          String?
+  message           String?    @db.Text
+  attachmentUrl     String?
+  source            LeadSource @default(WEBSITE)
+  status            LeadStatus @default(NEW)
+  consentAccepted   Boolean    @default(false)
+  ipAddress         String?
+  userAgent         String?
+  createdAt         DateTime   @default(now())
+  updatedAt         DateTime   @updatedAt
+
+  assignedTo      User?              @relation("QuoteAssignedTo", fields: [assignedToId], references: [id], onDelete: SetNull)
+  industry        Industry?          @relation(fields: [industryId], references: [id], onDelete: SetNull)
+  productCategory ProductCategory?   @relation(fields: [productCategoryId], references: [id], onDelete: SetNull)
+  items           QuoteRequestItem[]
+
+  @@index([assignedToId])
+  @@index([industryId])
+  @@index([productCategoryId])
+  @@index([status, createdAt])
+  @@index([email])
+}
+
+model QuoteRequestItem {
+  id             String   @id @default(cuid())
+  quoteRequestId String
+  productId      String?
+  productName    String?
+  quantity       Int?
+  notes          String?
+  createdAt      DateTime @default(now())
+
+  quoteRequest QuoteRequest @relation(fields: [quoteRequestId], references: [id], onDelete: Cascade)
+  product      Product?     @relation(fields: [productId], references: [id], onDelete: SetNull)
+
+  @@index([quoteRequestId])
+  @@index([productId])
+}
+
+model ContactEnquiry {
+  id              String     @id @default(cuid())
+  publicId        String     @unique @default(cuid())
+  assignedToId    String?
+  industryId      String?
+  name            String
+  company         String?
+  email           String
+  phone           String?
+  subject         String?
+  message         String     @db.Text
+  source          LeadSource @default(WEBSITE)
+  status          LeadStatus @default(NEW)
+  consentAccepted Boolean    @default(false)
+  ipAddress       String?
+  userAgent       String?
+  createdAt       DateTime   @default(now())
+  updatedAt       DateTime   @updatedAt
+
+  assignedTo User?     @relation("ContactAssignedTo", fields: [assignedToId], references: [id], onDelete: SetNull)
+  industry   Industry? @relation(fields: [industryId], references: [id], onDelete: SetNull)
+
+  @@index([assignedToId])
+  @@index([industryId])
+  @@index([status, createdAt])
+  @@index([email])
+}
+
+model NewsletterSubscriber {
+  id             String             @id @default(cuid())
+  email          String             @unique
+  name           String?
+  status         SubscriptionStatus @default(SUBSCRIBED)
+  consentSource  String?
+  subscribedAt   DateTime           @default(now())
+  unsubscribedAt DateTime?
+  createdAt      DateTime           @default(now())
+  updatedAt      DateTime           @updatedAt
+
+  @@index([status])
+}
+
+model SeoMetadata {
+  id             String   @id @default(cuid())
+  path           String   @unique
+  title          String
+  description    String
+  keywords       String[] @default([])
+  canonicalUrl   String?
+  ogTitle        String?
+  ogDescription  String?
+  ogImageUrl     String?
+  twitterTitle   String?
+  twitterSummary String?
+  schemaJson     Json?
+  noIndex        Boolean  @default(false)
+  noFollow       Boolean  @default(false)
+  createdAt      DateTime @default(now())
+  updatedAt      DateTime @updatedAt
+}
+
+model SiteSetting {
+  id          String           @id @default(cuid())
+  key         String           @unique
+  label       String
+  group       String           @default("general")
+  description String?
+  value       Json
+  valueType   SettingValueType @default(STRING)
+  isPublic    Boolean          @default(false)
+  createdAt   DateTime         @default(now())
+  updatedAt   DateTime         @updatedAt
+
+  @@index([group])
+  @@index([isPublic])
+}
+
+model Redirect {
+  id         String   @id @default(cuid())
+  sourcePath String   @unique
+  targetPath String
+  statusCode Int      @default(301)
+  active     Boolean  @default(true)
+  createdAt  DateTime @default(now())
+  updatedAt  DateTime @updatedAt
+
+  @@index([active])
+}

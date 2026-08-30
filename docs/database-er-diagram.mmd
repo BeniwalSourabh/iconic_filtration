@@ -1,0 +1,136 @@
+erDiagram
+  USER ||--o{ ACCOUNT : authenticates_with
+  USER ||--o{ SESSION : owns
+  USER ||--o{ USER_ROLE : has
+  ROLE ||--o{ USER_ROLE : grants
+  USER ||--o{ AUDIT_LOG : performs
+
+  PRODUCT_CATEGORY ||--o{ PRODUCT_CATEGORY : contains
+  PRODUCT_CATEGORY ||--o{ PRODUCT : groups
+  PRODUCT_CATEGORY ||--o{ QUOTE_REQUEST : requested_for
+
+  PRODUCT ||--o{ PRODUCT_IMAGE : has
+  PRODUCT ||--o{ PRODUCT_SPECIFICATION : has
+  PRODUCT ||--o{ PRODUCT_RELATION : source
+  PRODUCT ||--o{ PRODUCT_RELATION : target
+  PRODUCT ||--o{ PRODUCT_INDUSTRY : serves
+  INDUSTRY ||--o{ PRODUCT_INDUSTRY : uses
+  PRODUCT ||--o{ PRODUCT_DOWNLOAD : documents
+  DOWNLOAD ||--o{ PRODUCT_DOWNLOAD : attached_to
+  PRODUCT ||--o{ FAQ : answers
+  PRODUCT ||--o{ QUOTE_REQUEST_ITEM : requested
+
+  INDUSTRY ||--o{ PROJECT : includes
+  INDUSTRY ||--o{ CASE_STUDY : includes
+  INDUSTRY ||--o{ TESTIMONIAL : includes
+  INDUSTRY ||--o{ QUOTE_REQUEST : qualifies
+  INDUSTRY ||--o{ CONTACT_ENQUIRY : qualifies
+
+  PROJECT ||--o{ PROJECT_IMAGE : has
+  PROJECT ||--o| CASE_STUDY : expands_to
+
+  BLOG_POST ||--o{ BLOG_POST_CATEGORY : categorized_as
+  BLOG_CATEGORY ||--o{ BLOG_POST_CATEGORY : contains
+  USER ||--o{ BLOG_POST : authors
+
+  USER ||--o{ QUOTE_REQUEST : assigned_to
+  QUOTE_REQUEST ||--o{ QUOTE_REQUEST_ITEM : contains
+  USER ||--o{ CONTACT_ENQUIRY : assigned_to
+
+  USER {
+    string id PK
+    string email UK
+    string passwordHash
+    enum status
+  }
+
+  ROLE {
+    string id PK
+    enum key UK
+    string[] permissions
+  }
+
+  PRODUCT_CATEGORY {
+    string id PK
+    string parentId FK
+    string slug UK
+    enum status
+  }
+
+  PRODUCT {
+    string id PK
+    string categoryId FK
+    string slug UK
+    string sku UK
+    enum status
+  }
+
+  INDUSTRY {
+    string id PK
+    string slug UK
+    enum status
+  }
+
+  PROJECT {
+    string id PK
+    string industryId FK
+    string slug UK
+    enum status
+  }
+
+  CASE_STUDY {
+    string id PK
+    string projectId FK
+    string industryId FK
+    string slug UK
+    enum status
+  }
+
+  BLOG_POST {
+    string id PK
+    string authorId FK
+    string slug UK
+    enum status
+  }
+
+  BLOG_CATEGORY {
+    string id PK
+    string slug UK
+  }
+
+  QUOTE_REQUEST {
+    string id PK
+    string publicId UK
+    string assignedToId FK
+    string industryId FK
+    string productCategoryId FK
+    enum status
+  }
+
+  CONTACT_ENQUIRY {
+    string id PK
+    string publicId UK
+    string assignedToId FK
+    string industryId FK
+    enum status
+  }
+
+  SEO_METADATA {
+    string id PK
+    string path UK
+    string title
+  }
+
+  SITE_SETTING {
+    string id PK
+    string key UK
+    json value
+  }
+
+  AUDIT_LOG {
+    string id PK
+    string actorId FK
+    string entityType
+    string entityId
+  }
+
